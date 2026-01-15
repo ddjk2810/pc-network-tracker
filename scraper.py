@@ -2,7 +2,7 @@
 Procore Construction Network Data Scraper
 
 Collects contractor counts from https://network.procore.com/
-by company type and appends to CSV file.
+by company type and market sector, appends to CSV file.
 """
 
 import asyncio
@@ -25,41 +25,19 @@ COMPANY_TYPES = [
     {"name": "Suppliers", "filter_text": "Supplier"},
 ]
 
+# Market sector filters to track
+MARKET_SECTORS = [
+    {"name": "Commercial", "filter_text": "Commercial"},
+    {"name": "Healthcare", "filter_text": "Healthcare"},
+    {"name": "Industrial and Energy", "filter_text": "Industrial and Energy"},
+    {"name": "Infrastructure", "filter_text": "Infrastructure"},
+    {"name": "Institutional", "filter_text": "Institutional"},
+    {"name": "Residential", "filter_text": "Residential"},
+]
+
 BASE_URL = "https://network.procore.com/search"
 DATA_FILE = Path(__file__).parent / "data" / "procore_network_counts.csv"
 TIMEOUT_MS = 60000
-
-
-async def wait_for_count_change(page, previous_count: int | None, timeout: int = 10000) -> int | None:
-    """Wait for the count to change from a previous value."""
-    start_time = asyncio.get_event_loop().time()
-
-    while (asyncio.get_event_loop().time() - start_time) * 1000 < timeout:
-        content = await page.content()
-
-        # Look for count in the visible results header (not in JSON data)
-        # The displayed count should update when filters are applied
-        try:
-            # Try to find the results count in the page heading
-            heading = await page.locator('h1, h2, [class*="result"]').first.inner_text()
-            match = re.search(r'([\d,]+)\s*Results?', heading, re.IGNORECASE)
-            if match:
-                count = int(match.group(1).replace(",", ""))
-                if previous_count is None or count != previous_count:
-                    return count
-        except Exception:
-            pass
-
-        # Fallback: check JSON data
-        json_match = re.search(r'"count"\s*:\s*(\d+)', content)
-        if json_match:
-            count = int(json_match.group(1))
-            if previous_count is None or count != previous_count:
-                return count
-
-        await asyncio.sleep(0.5)
-
-    return None
 
 
 async def get_initial_count(page) -> int | None:
@@ -74,27 +52,25 @@ async def get_initial_count(page) -> int | None:
     return None
 
 
-async def click_filter_and_get_count(page, filter_text: str, total_count: int) -> int | None:
-    """Click on a company type filter and return the new count."""
+async def click_filter_and_get_count(page, filter_text: str, total_count: int, filter_section: str = None) -> int | None:
+    """Click on a filter and return the new count."""
     try:
-        # First, find and expand the Company Types filter section if needed
-        # Look for "Company Types" or similar header and expand it
-        try:
-            company_types_header = page.locator('button:has-text("Company Type"), [class*="filter"]:has-text("Company Type")')
-            if await company_types_header.count() > 0:
-                # Check if it's collapsed (aria-expanded="false")
-                is_expanded = await company_types_header.first.get_attribute("aria-expanded")
-                if is_expanded == "false":
-                    await company_types_header.first.click()
-                    await asyncio.sleep(1)
-        except Exception:
-            pass
+        # Try to expand the filter section if specified
+        if filter_section:
+            try:
+                section_header = page.locator(f'button:has-text("{filter_section}"), [class*="filter"]:has-text("{filter_section}")')
+                if await section_header.count() > 0:
+                    is_expanded = await section_header.first.get_attribute("aria-expanded")
+                    if is_expanded == "false":
+                        await section_header.first.click()
+                        await asyncio.sleep(1)
+            except Exception:
+                pass
 
-        # Find and click the specific filter checkbox/label
-        # Try multiple selectors
+        # Find and click the specific filter
         clicked = False
 
-        # Method 1: Look for label with exact text
+        # Method 1: Look for label with the text
         try:
             label = page.locator(f'label:has-text("{filter_text}")')
             if await label.count() > 0:
@@ -103,7 +79,7 @@ async def click_filter_and_get_count(page, filter_text: str, total_count: int) -
         except Exception:
             pass
 
-        # Method 2: Look for checkbox input near the text
+        # Method 2: Look for checkbox input
         if not clicked:
             try:
                 checkbox = page.locator(f'input[type="checkbox"]').filter(has_text=filter_text)
@@ -113,7 +89,7 @@ async def click_filter_and_get_count(page, filter_text: str, total_count: int) -
             except Exception:
                 pass
 
-        # Method 3: Look for any clickable element with the filter text within a filter section
+        # Method 3: Look for clickable element in filter section
         if not clicked:
             try:
                 filter_item = page.locator(f'[class*="filter"] >> text="{filter_text}"')
@@ -137,7 +113,7 @@ async def click_filter_and_get_count(page, filter_text: str, total_count: int) -
             print(f"    Could not find filter: {filter_text}")
             return None
 
-        # Wait for the count to update (should be different from total)
+        # Wait for the count to update
         await asyncio.sleep(3)
 
         # Get the new count
@@ -167,7 +143,7 @@ async def click_filter_and_get_count(page, filter_text: str, total_count: int) -
 
 
 async def scrape_counts() -> dict[str, int | None]:
-    """Scrape contractor counts for all company types."""
+    """Scrape contractor counts for all company types and market sectors."""
     results = {}
 
     async with async_playwright() as p:
@@ -189,18 +165,39 @@ async def scrape_counts() -> dict[str, int | None]:
         print(f"Fetching: Total...")
         print(f"  -> {total_count:,}" if total_count else "  -> N/A")
 
-        # Now get filtered counts
+        # Get company type counts
+        print("\n--- Company Types ---")
         for company_type in COMPANY_TYPES[1:]:  # Skip "Total"
             name = company_type["name"]
             filter_text = company_type["filter_text"]
 
             print(f"Fetching: {name}...")
 
-            # Reload page fresh for each filter to avoid stacking filters
+            # Reload page fresh for each filter
             await page.goto(BASE_URL, wait_until="domcontentloaded", timeout=TIMEOUT_MS)
             await asyncio.sleep(3)
 
-            count = await click_filter_and_get_count(page, filter_text, total_count)
+            count = await click_filter_and_get_count(page, filter_text, total_count, "Company Type")
+            results[name] = count
+
+            if count:
+                print(f"  -> {count:,}")
+            else:
+                print(f"  -> Unable to fetch")
+
+        # Get market sector counts
+        print("\n--- Market Sectors ---")
+        for sector in MARKET_SECTORS:
+            name = sector["name"]
+            filter_text = sector["filter_text"]
+
+            print(f"Fetching: {name}...")
+
+            # Reload page fresh for each filter
+            await page.goto(BASE_URL, wait_until="domcontentloaded", timeout=TIMEOUT_MS)
+            await asyncio.sleep(3)
+
+            count = await click_filter_and_get_count(page, filter_text, total_count, "Market Sector")
             results[name] = count
 
             if count:
@@ -220,7 +217,11 @@ def save_to_csv(results: dict[str, int | None]) -> None:
 
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
-    fieldnames = ["timestamp"] + [ct["name"] for ct in COMPANY_TYPES]
+    # Build fieldnames: timestamp, company types, then market sectors
+    fieldnames = ["timestamp"]
+    fieldnames += [ct["name"] for ct in COMPANY_TYPES]
+    fieldnames += [ms["name"] for ms in MARKET_SECTORS]
+
     row = {"timestamp": timestamp}
     row.update(results)
 
@@ -246,7 +247,19 @@ async def main():
     print("\n" + "=" * 60)
     print("Summary:")
     print("-" * 60)
-    for name, count in results.items():
+    print("Company Types:")
+    for ct in COMPANY_TYPES:
+        name = ct["name"]
+        count = results.get(name)
+        if count:
+            print(f"  {name}: {count:,}")
+        else:
+            print(f"  {name}: N/A")
+
+    print("\nMarket Sectors:")
+    for ms in MARKET_SECTORS:
+        name = ms["name"]
+        count = results.get(name)
         if count:
             print(f"  {name}: {count:,}")
         else:

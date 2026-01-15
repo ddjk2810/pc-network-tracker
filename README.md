@@ -4,7 +4,7 @@ Automated daily scraper that collects contractor counts from the [Procore Constr
 
 ## Data Collected
 
-### 1. Company Types (`scraper.py`)
+### 1. Company Types & Market Sectors (`scraper.py`)
 
 Tracks contractor counts by company type:
 
@@ -18,6 +18,17 @@ Tracks contractor counts by company type:
 | Engineers | Engineering firms |
 | Consultants | Construction consultants |
 | Suppliers | Material and equipment suppliers |
+
+Also tracks by market sector:
+
+| Sector |
+|--------|
+| Commercial |
+| Healthcare |
+| Industrial and Energy |
+| Infrastructure |
+| Institutional |
+| Residential |
 
 **Output:** `data/procore_network_counts.csv`
 
