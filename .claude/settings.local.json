@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:network.procore.com)",
+      "WebFetch(domain:web.archive.org)",
+      "WebSearch",
+      "Bash(pip install:*)",
+      "Bash(python -m pip install:*)",
+      "Bash(python -m playwright:*)",
+      "Bash(python:*)",
+      "Bash(gh auth:*)",
+      "Bash(git --version:*)",
+      "Bash(where git:*)",
+      "Bash(where:*)",
+      "Bash(cmd /c \"where gh\")",
+      "Bash(cmd.exe /c \"gh auth status\")",
+      "Bash(powershell.exe -Command \"gh auth status\")",
+      "Bash(powershell.exe -Command \"winget install GitHub.cli\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
