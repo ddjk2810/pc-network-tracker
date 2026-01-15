@@ -4,7 +4,9 @@ Automated daily scraper that collects contractor counts from the [Procore Constr
 
 ## Data Collected
 
-The scraper tracks the following counts daily:
+### 1. Company Types (`scraper.py`)
+
+Tracks contractor counts by company type:
 
 | Category | Description |
 |----------|-------------|
@@ -17,11 +19,13 @@ The scraper tracks the following counts daily:
 | Consultants | Construction consultants |
 | Suppliers | Material and equipment suppliers |
 
-## Data Output
+**Output:** `data/procore_network_counts.csv`
 
-Data is saved to `data/procore_network_counts.csv` with the following columns:
-- `timestamp` - UTC timestamp of data collection
-- One column per company type with the count
+### 2. US States (`scraper_states.py`)
+
+Tracks contractor counts by US state (all 50 states + DC):
+
+**Output:** `data/procore_network_states.csv`
 
 ## Setup
 
@@ -60,11 +64,13 @@ The workflow automatically commits new data to the repository.
 procore/
 ├── .github/
 │   └── workflows/
-│       └── daily-scrape.yml  # GitHub Actions workflow
+│       └── daily-scrape.yml        # GitHub Actions workflow
 ├── data/
-│   └── procore_network_counts.csv  # Collected data
-├── scraper.py                # Main scraper script
-├── requirements.txt          # Python dependencies
+│   ├── procore_network_counts.csv  # Company type data
+│   └── procore_network_states.csv  # State-by-state data
+├── scraper.py                      # Company types scraper
+├── scraper_states.py               # US states scraper
+├── requirements.txt                # Python dependencies
 ├── .gitignore
 └── README.md
 ```

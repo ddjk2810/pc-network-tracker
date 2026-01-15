@@ -29,8 +29,11 @@ jobs:
           playwright install chromium
           playwright install-deps chromium
 
-      - name: Run scraper
+      - name: Run company types scraper
         run: python scraper.py
+
+      - name: Run states scraper
+        run: python scraper_states.py
 
       - name: Commit and push data
         run: |
