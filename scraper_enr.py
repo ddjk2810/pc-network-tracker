@@ -1,0 +1,279 @@
+"""
+ENR Top 400 Contractors - Procore Network Search Scraper
+
+Searches for each ENR Top 400 contractor on the Procore Construction Network
+and logs the number of matches found.
+"""
+
+import asyncio
+import csv
+import re
+from datetime import datetime, timezone
+from pathlib import Path
+
+import pdfplumber
+from playwright.async_api import async_playwright
+
+# File paths
+PDF_FILE = Path(__file__).parent / "ENR-2023-Top-400-National-Contractors.pdf"
+DATA_FILE = Path(__file__).parent / "data" / "enr_contractor_matches.csv"
+BASE_URL = "https://network.procore.com/search"
+TIMEOUT_MS = 60000
+
+
+def extract_contractors_from_pdf(pdf_path: Path) -> list[dict]:
+    """Extract contractor names and ranks from the ENR PDF."""
+    contractors = []
+
+    with pdfplumber.open(pdf_path) as pdf:
+        for page in pdf.pages:
+            text = page.extract_text()
+            if not text:
+                continue
+
+            # Split into lines
+            lines = text.split('\n')
+
+            for line in lines:
+                # Pattern: rank numbers followed by company name, location
+                # Examples:
+                # "1 1 THE TURNER CORP., New York, N.Y.† 16,256.3 ..."
+                # "3 ** MASTEC INC., Coral Gables, Fla.† 11,605.0 ..."
+                match = re.match(
+                    r'^(\d+)\s+(?:\d+|\*\*)\s+([A-Z][A-Z0-9\s&\.\-\'/\|]+(?:,\s*[A-Za-z\s\.]+)?)',
+                    line
+                )
+                if match:
+                    rank = int(match.group(1))
+                    firm_text = match.group(2).strip()
+
+                    # Extract company name (before the location)
+                    # Location pattern: ", City, State" or ", City, State†"
+                    # Split on the pattern: comma + space + capitalized word + comma
+                    location_match = re.search(r',\s+[A-Z][a-z]+[\w\s]*,\s+[A-Z][a-z]+\.?†?$', firm_text)
+                    if location_match:
+                        company_name = firm_text[:location_match.start()].strip()
+                    else:
+                        # Try simpler pattern - just take up to last comma pair
+                        parts = firm_text.rsplit(',', 2)
+                        if len(parts) >= 2:
+                            company_name = parts[0].strip()
+                        else:
+                            company_name = firm_text
+
+                    # Clean up the company name
+                    company_name = company_name.rstrip(',').rstrip('†').strip()
+
+                    if rank <= 400 and company_name and len(company_name) > 2:
+                        contractors.append({
+                            "rank": rank,
+                            "original_name": company_name
+                        })
+
+    # Remove duplicates and sort by rank
+    seen_ranks = set()
+    unique_contractors = []
+    for c in contractors:
+        if c["rank"] not in seen_ranks:
+            seen_ranks.add(c["rank"])
+            unique_contractors.append(c)
+
+    unique_contractors.sort(key=lambda x: x["rank"])
+    return unique_contractors
+
+
+def clean_company_name(name: str) -> str:
+    """Clean company name by removing common suffixes."""
+    # Remove common suffixes
+    suffixes = [
+        r'\s+INC\.?$', r'\s+CORP\.?$', r'\s+LLC\.?$', r'\s+LP\.?$',
+        r'\s+CO\.?$', r'\s+COS\.?$', r'\s+GROUP$', r'\s+HOLDINGS?$',
+        r'\s+ENTERPRISES?$', r'\s+COMPANIES$', r'\s+SERVICES?$',
+        r'\s+CONSTRUCTION$', r'\s+CONSTRUCTORS?$', r'\s+BUILDERS?$',
+        r'\s+CONTRACTORS?$', r'\s+& SONS?$', r'\s+& ASSOCIATES?$',
+        r'\s+OF COS\.?$', r'\s+& CO\.?$'
+    ]
+
+    cleaned = name.strip()
+    for suffix in suffixes:
+        cleaned = re.sub(suffix, '', cleaned, flags=re.IGNORECASE)
+
+    # Remove trailing punctuation
+    cleaned = cleaned.rstrip('.,;:').strip()
+
+    return cleaned
+
+
+async def search_contractor(page, company_name: str, cleaned_name: str) -> dict:
+    """Search for a contractor on Procore network and return match info."""
+    result = {
+        "search_term": cleaned_name,
+        "exact_match": False,
+        "match_count": 0,
+        "top_matches": []
+    }
+
+    try:
+        # Navigate to search with the company name as query
+        search_url = f"{BASE_URL}?q={cleaned_name.replace(' ', '+')}"
+        await page.goto(search_url, wait_until="domcontentloaded", timeout=TIMEOUT_MS)
+        await asyncio.sleep(3)
+
+        # Get page content
+        content = await page.content()
+
+        # Extract the count from JSON
+        count_match = re.search(r'"count"\s*:\s*(\d+)', content)
+        if count_match:
+            result["match_count"] = int(count_match.group(1))
+
+        # Check for exact match by looking at results
+        name_lower = cleaned_name.lower()
+        original_lower = company_name.lower().replace(' corp.', '').replace(' inc.', '').replace(' llc', '')
+
+        # Extract company names from JSON - they appear as "name": "Company Name"
+        # Filter to get unique names that look like company names
+        all_names = re.findall(r'"name"\s*:\s*"([^"]+)"', content)
+
+        # Filter out generic/non-company names and deduplicate
+        skip_names = {'main office', 'headquarters', 'true', 'false', 'null', ''}
+        company_names = []
+        seen = set()
+        for n in all_names:
+            n_lower = n.lower()
+            if (len(n) > 2 and
+                n_lower not in skip_names and
+                n_lower not in seen and
+                not n.startswith('http') and
+                not n.isdigit()):
+                company_names.append(n)
+                seen.add(n_lower)
+
+        if result["match_count"] > 0 and company_names:
+            for found_name in company_names[:20]:  # Check first 20
+                found_lower = found_name.lower()
+                # Remove common suffixes for comparison
+                found_clean = re.sub(r'\s+(inc|corp|llc|co|company|construction|contractors?)\.?$', '', found_lower, flags=re.IGNORECASE)
+
+                # Check for match
+                if (name_lower in found_lower or
+                    found_lower in name_lower or
+                    name_lower in found_clean or
+                    found_clean in name_lower or
+                    original_lower in found_lower or
+                    found_lower in original_lower):
+                    result["exact_match"] = True
+                    break
+
+            # Store top matches (company names only)
+            result["top_matches"] = company_names[:5]
+
+    except Exception as e:
+        print(f"    Error searching: {e}")
+
+    return result
+
+
+async def scrape_enr_contractors() -> list[dict]:
+    """Main scraping function for ENR contractors."""
+    print("Extracting contractors from PDF...")
+    contractors = extract_contractors_from_pdf(PDF_FILE)
+    print(f"Found {len(contractors)} contractors")
+
+    if not contractors:
+        print("ERROR: No contractors extracted from PDF")
+        return []
+
+    results = []
+
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        context = await browser.new_context(
+            viewport={"width": 1920, "height": 1080},
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        )
+        page = await context.new_page()
+
+        for i, contractor in enumerate(contractors):
+            rank = contractor["rank"]
+            original_name = contractor["original_name"]
+            cleaned_name = clean_company_name(original_name)
+
+            print(f"[{i+1}/{len(contractors)}] Rank {rank}: {original_name}")
+            print(f"    Searching: {cleaned_name}")
+
+            search_result = await search_contractor(page, original_name, cleaned_name)
+
+            result = {
+                "rank": rank,
+                "original_name": original_name,
+                "search_term": cleaned_name,
+                "exact_match": search_result["exact_match"],
+                "match_count": search_result["match_count"],
+                "top_matches": "; ".join(search_result["top_matches"][:3])
+            }
+            results.append(result)
+
+            status = "EXACT MATCH" if search_result["exact_match"] else "no exact match"
+            print(f"    -> {search_result['match_count']} results ({status})")
+
+            # Small delay to be respectful
+            await asyncio.sleep(1)
+
+        await browser.close()
+
+    return results
+
+
+def save_to_csv(results: list[dict]) -> None:
+    """Save results to CSV file."""
+    DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+
+    fieldnames = ["timestamp", "rank", "original_name", "search_term",
+                  "exact_match", "match_count", "top_matches"]
+
+    # Write fresh file (not append) since this is a complete scan
+    with open(DATA_FILE, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        for result in results:
+            result["timestamp"] = timestamp
+            writer.writerow(result)
+
+    print(f"\nResults saved to {DATA_FILE}")
+
+
+async def main():
+    """Main entry point."""
+    print("=" * 70)
+    print("ENR Top 400 Contractors - Procore Network Search")
+    print(f"Started: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}")
+    print("=" * 70 + "\n")
+
+    if not PDF_FILE.exists():
+        print(f"ERROR: PDF file not found: {PDF_FILE}")
+        return
+
+    results = await scrape_enr_contractors()
+
+    if results:
+        save_to_csv(results)
+
+        # Summary
+        exact_matches = sum(1 for r in results if r["exact_match"])
+        with_results = sum(1 for r in results if r["match_count"] > 0)
+
+        print("\n" + "=" * 70)
+        print("Summary:")
+        print("-" * 70)
+        print(f"  Total contractors searched: {len(results)}")
+        print(f"  With exact match: {exact_matches}")
+        print(f"  With any results: {with_results}")
+        print(f"  No results found: {len(results) - with_results}")
+        print("=" * 70)
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

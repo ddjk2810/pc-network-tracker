@@ -35,6 +35,9 @@ jobs:
       - name: Run states scraper
         run: python scraper_states.py
 
+      - name: Run ENR contractor search
+        run: python scraper_enr.py
+
       - name: Commit and push data
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
