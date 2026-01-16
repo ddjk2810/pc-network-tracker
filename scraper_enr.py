@@ -17,6 +17,7 @@ from playwright.async_api import async_playwright
 # File paths
 PDF_FILE = Path(__file__).parent / "ENR-2023-Top-400-National-Contractors.pdf"
 DATA_FILE = Path(__file__).parent / "data" / "enr_contractor_matches.csv"
+SUMMARY_FILE = Path(__file__).parent / "data" / "enr_summary.csv"
 BASE_URL = "https://network.procore.com/search"
 TIMEOUT_MS = 60000
 
@@ -359,6 +360,69 @@ def save_to_csv(results: list[dict]) -> None:
     print(f"\nResults saved to {DATA_FILE}")
 
 
+def update_summary_csv(results: list[dict]) -> None:
+    """Update the summary CSV with today's results.
+
+    Format: contractor names in first column, dates as subsequent columns,
+    values are 1 (match found) or 0 (no match).
+    """
+    SUMMARY_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    # Build a dict of rank -> match result (1 or 0) for today
+    today_results = {}
+    for r in results:
+        today_results[r["rank"]] = 1 if r["exact_match"] else 0
+
+    # Read existing summary if it exists
+    existing_data = {}  # rank -> {date: value, ...}
+    existing_dates = []
+
+    if SUMMARY_FILE.exists():
+        with open(SUMMARY_FILE, "r", newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            if reader.fieldnames:
+                # First column is 'rank', second is 'contractor', rest are dates
+                existing_dates = [col for col in reader.fieldnames if col not in ('rank', 'contractor')]
+
+                for row in reader:
+                    rank = int(row['rank'])
+                    existing_data[rank] = {date: row[date] for date in existing_dates}
+
+    # Add today's date if not already present
+    if today not in existing_dates:
+        existing_dates.append(today)
+
+    # Merge today's results
+    for rank, match_value in today_results.items():
+        if rank not in existing_data:
+            existing_data[rank] = {}
+        existing_data[rank][today] = match_value
+
+    # Get contractor names from results
+    rank_to_name = {r["rank"]: r["search_term"] for r in results}
+
+    # Write updated summary
+    fieldnames = ['rank', 'contractor'] + existing_dates
+
+    with open(SUMMARY_FILE, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+
+        # Write rows sorted by rank
+        for rank in sorted(existing_data.keys()):
+            row = {
+                'rank': rank,
+                'contractor': rank_to_name.get(rank, f"Rank {rank}")
+            }
+            for date in existing_dates:
+                row[date] = existing_data[rank].get(date, '')
+            writer.writerow(row)
+
+    print(f"Summary updated: {SUMMARY_FILE}")
+
+
 async def main():
     """Main entry point."""
     print("=" * 70)
@@ -374,6 +438,7 @@ async def main():
 
     if results:
         save_to_csv(results)
+        update_summary_csv(results)
 
         # Summary
         exact_matches = sum(1 for r in results if r["exact_match"])
