@@ -82,26 +82,154 @@ def extract_contractors_from_pdf(pdf_path: Path) -> list[dict]:
     return unique_contractors
 
 
-def clean_company_name(name: str) -> str:
+# Manual overrides for specific ranks (rank -> search term)
+SEARCH_TERM_OVERRIDES = {
+    19: "MCCARTHY HOLDINGS",
+    28: "RYAN COMPANIES",
+    40: "YATES CONSTRUCTION",
+    54: "FCL BUILDERS",
+    58: "HARVEY CLEARY",
+    60: "KOKOSING",
+    66: "J.T. MAGEN",
+    72: "WEITZ COMPANY",
+    92: "S&B ENGINEERS",
+    94: "PJ DICK",
+    121: "CATAMOUNT CONSTRUCTORS",
+    123: "JINGOLI",
+    178: "UNITED ENGINEERS",
+    183: "FCI CONSTRUCTORS",
+    213: "IOVINO ENTERPRISES",
+    218: "MW BUILDERS",
+    225: "CHINA CONSTRUCTION AMERICA",
+    246: "NAN INC",
+    257: "CROWDER CONSTRUCTORS",
+    274: "CURRENT BUILDERS",
+    279: "CAHILL CONTRACTORS",
+    288: "RODGERS BUILDERS",
+    290: "FRANA COMPANIES",
+    295: "C. OVERAA & CO",
+    324: "GARDNER BUILDERS",
+    330: "LEOPARDO COMPANIES",
+    340: "PRIMUS BUILDERS",
+    356: "PENCE CONTRACTORS",
+    367: "MORLEY BUILDERS",
+    374: "CLARK CONTRACTORS",
+    376: "BH INC",
+    380: "S. M. WILSON",
+    383: "BUTZ ENTERPRISES",
+    388: "DESCOR BUILDERS",
+    395: "WAGMAN CONSTRUCTION",
+    398: "KIELY FAMILY",
+}
+
+
+def clean_company_name(name: str, rank: int = None) -> str:
     """Clean company name by removing common suffixes."""
-    # Remove common suffixes
+    # Check for manual override first
+    if rank and rank in SEARCH_TERM_OVERRIDES:
+        return SEARCH_TERM_OVERRIDES[rank]
+
+    cleaned = name.strip()
+
+    # Remove "THE" from the beginning
+    cleaned = re.sub(r'^THE\s+', '', cleaned, flags=re.IGNORECASE)
+
+    # Remove common suffixes (but keep CONSTRUCTION)
     suffixes = [
         r'\s+INC\.?$', r'\s+CORP\.?$', r'\s+LLC\.?$', r'\s+LP\.?$',
-        r'\s+CO\.?$', r'\s+COS\.?$', r'\s+GROUP$', r'\s+HOLDINGS?$',
+        r'\s+CO\.?$', r'\s+COS\.?$', r'\s+HOLDINGS?$',
         r'\s+ENTERPRISES?$', r'\s+COMPANIES$', r'\s+SERVICES?$',
-        r'\s+CONSTRUCTION$', r'\s+CONSTRUCTORS?$', r'\s+BUILDERS?$',
+        r'\s+CONSTRUCTORS?$', r'\s+BUILDERS?$',
         r'\s+CONTRACTORS?$', r'\s+& SONS?$', r'\s+& ASSOCIATES?$',
         r'\s+OF COS\.?$', r'\s+& CO\.?$'
     ]
 
-    cleaned = name.strip()
     for suffix in suffixes:
         cleaned = re.sub(suffix, '', cleaned, flags=re.IGNORECASE)
+
+    # Handle GROUP: only remove if result would have 2+ words
+    group_match = re.search(r'\s+GROUP$', cleaned, flags=re.IGNORECASE)
+    if group_match:
+        without_group = cleaned[:group_match.start()].strip()
+        # Count words (split by whitespace)
+        if len(without_group.split()) >= 2:
+            cleaned = without_group
+        # else keep GROUP
 
     # Remove trailing punctuation
     cleaned = cleaned.rstrip('.,;:').strip()
 
     return cleaned
+
+
+# Allowed suffixes that don't disqualify a match
+ALLOWED_SUFFIXES = [
+    'inc', 'inc.', 'incorporated',
+    'corp', 'corp.', 'corporation',
+    'llc', 'llc.', 'l.l.c.',
+    'lp', 'lp.', 'l.p.',
+    'llp', 'llp.', 'l.l.p.',
+    'co', 'co.', 'company', 'companies',
+    'construction', 'constructors',
+    'contractors', 'contractor', 'contracting',
+    'builders', 'builder', 'building',
+    'group', 'holdings', 'holding',
+    'enterprises', 'enterprise',
+    'services', 'service',
+    'industries', 'industrial',
+    'pc', 'p.c.',
+    'na', 'n.a.',
+    'usa', 'us',
+    'of', 'the', '&', 'and',
+]
+
+
+def normalize_name(name: str) -> str:
+    """Normalize a company name for comparison."""
+    normalized = name.lower().strip()
+    # Remove "the " prefix
+    normalized = re.sub(r'^the\s+', '', normalized)
+    # Remove trailing punctuation
+    normalized = normalized.rstrip('.,;:')
+    return normalized
+
+
+def is_match(search_term: str, result_name: str) -> bool:
+    """
+    Check if a search result matches the search term.
+
+    Match criteria:
+    1. Exact match (case-insensitive, ignoring "The" prefix)
+    2. Result starts with search term and only has allowed suffixes after
+    """
+    search_norm = normalize_name(search_term)
+    result_norm = normalize_name(result_name)
+
+    # Exact match
+    if search_norm == result_norm:
+        return True
+
+    # Check if result starts with search term
+    if not result_norm.startswith(search_norm):
+        return False
+
+    # Get the remainder after the search term
+    remainder = result_norm[len(search_norm):].strip()
+
+    # If nothing remains, it's a match
+    if not remainder:
+        return True
+
+    # Check if remainder contains only allowed suffixes
+    # Split remainder into words
+    remainder_words = remainder.replace(',', ' ').replace('.', ' ').split()
+
+    for word in remainder_words:
+        word_clean = word.strip('.,;:').lower()
+        if word_clean and word_clean not in ALLOWED_SUFFIXES:
+            return False
+
+    return True
 
 
 async def search_contractor(page, company_name: str, cleaned_name: str) -> dict:
@@ -127,12 +255,7 @@ async def search_contractor(page, company_name: str, cleaned_name: str) -> dict:
         if count_match:
             result["match_count"] = int(count_match.group(1))
 
-        # Check for exact match by looking at results
-        name_lower = cleaned_name.lower()
-        original_lower = company_name.lower().replace(' corp.', '').replace(' inc.', '').replace(' llc', '')
-
         # Extract company names from JSON - they appear as "name": "Company Name"
-        # Filter to get unique names that look like company names
         all_names = re.findall(r'"name"\s*:\s*"([^"]+)"', content)
 
         # Filter out generic/non-company names and deduplicate
@@ -150,18 +273,9 @@ async def search_contractor(page, company_name: str, cleaned_name: str) -> dict:
                 seen.add(n_lower)
 
         if result["match_count"] > 0 and company_names:
-            for found_name in company_names[:20]:  # Check first 20
-                found_lower = found_name.lower()
-                # Remove common suffixes for comparison
-                found_clean = re.sub(r'\s+(inc|corp|llc|co|company|construction|contractors?)\.?$', '', found_lower, flags=re.IGNORECASE)
-
-                # Check for match
-                if (name_lower in found_lower or
-                    found_lower in name_lower or
-                    name_lower in found_clean or
-                    found_clean in name_lower or
-                    original_lower in found_lower or
-                    found_lower in original_lower):
+            # Check each result for a match
+            for found_name in company_names[:20]:
+                if is_match(cleaned_name, found_name):
                     result["exact_match"] = True
                     break
 
@@ -197,7 +311,7 @@ async def scrape_enr_contractors() -> list[dict]:
         for i, contractor in enumerate(contractors):
             rank = contractor["rank"]
             original_name = contractor["original_name"]
-            cleaned_name = clean_company_name(original_name)
+            cleaned_name = clean_company_name(original_name, rank)
 
             print(f"[{i+1}/{len(contractors)}] Rank {rank}: {original_name}")
             print(f"    Searching: {cleaned_name}")
