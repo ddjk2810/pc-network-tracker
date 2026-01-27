@@ -85,6 +85,7 @@ def extract_contractors_from_pdf(pdf_path: Path) -> list[dict]:
 
 # Manual overrides for specific ranks (rank -> search term)
 SEARCH_TERM_OVERRIDES = {
+    # Note: Turner Corp (#1) is NOT on Procore - do not add override
     19: "MCCARTHY HOLDINGS",
     28: "RYAN COMPANIES",
     40: "YATES CONSTRUCTION",
@@ -190,18 +191,103 @@ def normalize_name(name: str) -> str:
     normalized = name.lower().strip()
     # Remove "the " prefix
     normalized = re.sub(r'^the\s+', '', normalized)
+    # Normalize hyphens to spaces
+    normalized = normalized.replace('-', ' ')
+    # Normalize ampersand to "and"
+    normalized = normalized.replace('&', 'and')
+    # Remove periods and other punctuation
+    normalized = normalized.replace('.', '').replace(',', '')
+    # Collapse multiple spaces
+    normalized = re.sub(r'\s+', ' ', normalized)
     # Remove trailing punctuation
     normalized = normalized.rstrip('.,;:')
     return normalized
 
 
-def is_match(search_term: str, result_name: str) -> bool:
+def is_service_category(name: str) -> bool:
     """
-    Check if a search result matches the search term.
+    Check if a name looks like a service category rather than a company name.
+    Service categories should not be used for website-based matching.
+    """
+    # Common service category names found in Procore search results
+    service_categories = {
+        'concrete', 'electrical', 'plumbing', 'demolition', 'earthwork',
+        'landscaping', 'roofing', 'hvac', 'heating ventilating and air conditioning hvac',
+        'project management and coordination', 'general construction management',
+        'design and engineering', 'bim and model making services',
+        'communications', 'fire suppression', 'electronic security',
+        'rough carpentry', 'structural steel', 'wall specialties',
+        'construction aides', 'curtain wall and glazed assemblies',
+        'door and window hardware', 'doors and frames', 'entrances and storefronts',
+        'glass and glazing', 'louvers', 'roof windows and skylights',
+        'specialty doors and frames', 'translucent wall and roof assemblies',
+        'vents', 'window wall assemblies', 'windows', 'ceilings',
+        'wood framing', 'minority business enterprise', 'small business',
+        'office', 'main office', 'headquarters',
+    }
 
-    Match criteria:
-    1. Exact match (case-insensitive, ignoring "The" prefix)
-    2. Result starts with search term and only has allowed suffixes after
+    name_lower = name.lower().strip()
+    return name_lower in service_categories
+
+
+def domain_matches(search_term: str, website: str) -> bool:
+    """
+    Check if key words from search term appear in website domain.
+
+    Example: "WHITING-TURNER" matches "whiting-turner.com"
+
+    For single-word searches, requires domain to start with that word
+    to avoid false positives (e.g., "turner" matching "turnersecurity.com").
+    """
+    if not website:
+        return False
+
+    # Extract domain from URL
+    domain = website.lower().replace('https://', '').replace('http://', '')
+    domain = domain.replace('www.', '').split('/')[0]  # e.g., "whiting-turner.com"
+    domain_name = domain.split('.')[0]  # e.g., "whiting-turner"
+    domain_no_hyphens = domain_name.replace('-', '')
+
+    # For domain matching, only ignore truly generic legal suffixes
+    # Keep words like "group", "builders", "construction" as they distinguish companies
+    generic_suffixes = {'inc', 'corp', 'corporation', 'llc', 'llp', 'lp',
+                        'co', 'company', 'companies', 'the', 'of', 'and', 'usa', 'us'}
+
+    # Get key words from search term
+    search_clean = re.sub(r'[^a-z\s]', '', search_term.lower())
+    words = search_clean.split()
+    # Keep all words except generic legal suffixes and very short ones (1 char)
+    key_words = [w for w in words if w not in generic_suffixes and len(w) >= 2]
+
+    if not key_words:
+        return False
+
+    # For single key word, require domain to start with it and be a close match
+    # This prevents "turner" matching "turnersecurity" but allows "turnerconstruction"
+    if len(key_words) == 1:
+        word = key_words[0]
+        if not domain_no_hyphens.startswith(word):
+            return False
+        # Check what follows - should be empty or an allowed suffix
+        remainder = domain_no_hyphens[len(word):]
+        if remainder:
+            # Check if remainder is a known suffix (construction, inc, etc.)
+            # Use exact match only to avoid false positives like "coatings" matching "co"
+            allowed_domain_suffixes = ['construction', 'constructors', 'builders',
+                                       'building', 'contracting', 'group', 'inc',
+                                       'corp', 'co', 'company', 'companies', 'usa', 'us']
+            if remainder not in allowed_domain_suffixes:
+                return False
+        return True
+
+    # For multiple key words, ALL must appear in domain
+    return all(w in domain_no_hyphens for w in key_words)
+
+
+def name_matches(search_term: str, result_name: str) -> bool:
+    """
+    Check if names match using forward prefix matching.
+    Result starts with search term and only has allowed suffixes after.
     """
     search_norm = normalize_name(search_term)
     result_norm = normalize_name(result_name)
@@ -222,8 +308,7 @@ def is_match(search_term: str, result_name: str) -> bool:
         return True
 
     # Check if remainder contains only allowed suffixes
-    # Split remainder into words
-    remainder_words = remainder.replace(',', ' ').replace('.', ' ').split()
+    remainder_words = remainder.split()
 
     for word in remainder_words:
         word_clean = word.strip('.,;:').lower()
@@ -231,6 +316,60 @@ def is_match(search_term: str, result_name: str) -> bool:
             return False
 
     return True
+
+
+def bidirectional_match(search_term: str, result_name: str) -> bool:
+    """
+    Check if search term starts with result name (result is shorter version).
+    Requires result to have at least 2 significant words to avoid false positives.
+
+    Example: "whiting-turner contracting" starts with "whiting turner" -> match
+    """
+    search_norm = normalize_name(search_term)
+    result_norm = normalize_name(result_name)
+
+    # Check if search starts with result (result is shorter)
+    if not search_norm.startswith(result_norm):
+        return False
+
+    # Require result to have at least 2 significant words
+    result_words = [w for w in result_norm.split() if w not in ALLOWED_SUFFIXES]
+    if len(result_words) < 2:
+        return False
+
+    # Check remainder only has allowed suffixes
+    remainder = search_norm[len(result_norm):].strip()
+    if remainder:
+        remainder_words = remainder.split()
+        for word in remainder_words:
+            if word and word not in ALLOWED_SUFFIXES:
+                return False
+
+    return True
+
+
+def is_match(search_term: str, result_name: str, website: str = None) -> bool:
+    """
+    Check if a search result matches the search term.
+
+    Match criteria (in order):
+    1. Name match: Exact or result starts with search term + allowed suffixes
+    2. Website match: Key words from search appear in website domain
+    3. Bidirectional: Search starts with result (result is shorter version, 2+ words)
+    """
+    # Tier 1: Direct name matching
+    if name_matches(search_term, result_name):
+        return True
+
+    # Tier 2: Website domain verification
+    if website and domain_matches(search_term, website):
+        return True
+
+    # Tier 3: Bidirectional prefix (result is shorter version of search)
+    if bidirectional_match(search_term, result_name):
+        return True
+
+    return False
 
 
 async def search_contractor(page, company_name: str, cleaned_name: str) -> dict:
@@ -257,7 +396,12 @@ async def search_contractor(page, company_name: str, cleaned_name: str) -> dict:
             result["match_count"] = int(count_match.group(1))
 
         # Extract company names from JSON - they appear as "name": "Company Name"
-        all_names = re.findall(r'"name"\s*:\s*"([^"]+)"', content)
+        all_names_raw = re.findall(r'"name"\s*:\s*"([^"]+)"', content)
+        # Decode JSON unicode escapes (e.g., \u0026 -> &)
+        all_names = [n.encode().decode('unicode_escape') for n in all_names_raw]
+
+        # Extract websites from JSON - they appear as "website": "https://..."
+        all_websites = re.findall(r'"website"\s*:\s*"([^"]+)"', content)
 
         # Filter out generic/non-company names and deduplicate
         skip_names = {'main office', 'headquarters', 'true', 'false', 'null', ''}
@@ -273,12 +417,63 @@ async def search_contractor(page, company_name: str, cleaned_name: str) -> dict:
                 company_names.append(n)
                 seen.add(n_lower)
 
+        # Build a map of company name -> website (approximate, based on order in JSON)
+        # Websites appear after their corresponding company in the JSON structure
+        name_to_website = {}
+        for website in all_websites:
+            if website and not website.startswith('mailto:'):
+                # Associate website with the most recent company name that doesn't have one
+                for name in company_names:
+                    if name not in name_to_website:
+                        name_to_website[name] = website
+                        break
+
         if result["match_count"] > 0 and company_names:
-            # Check each result for a match
+            # First pass: check for direct name matches (highest confidence)
             for found_name in company_names[:20]:
-                if is_match(cleaned_name, found_name):
+                if name_matches(cleaned_name, found_name):
                     result["exact_match"] = True
+                    result["matched_name"] = found_name
+                    result["matched_website"] = name_to_website.get(found_name)
+                    result["match_method"] = "name"
                     break
+
+            # Second pass: check bidirectional matches (result is shorter version)
+            if not result["exact_match"]:
+                for found_name in company_names[:20]:
+                    if bidirectional_match(cleaned_name, found_name):
+                        result["exact_match"] = True
+                        result["matched_name"] = found_name
+                        result["matched_website"] = name_to_website.get(found_name)
+                        result["match_method"] = "bidirectional"
+                        break
+
+            # Third pass: check website domain matches (fallback)
+            # Only match if the name looks like a company (not a service category)
+            # AND the company name has at least some relation to the search term
+            if not result["exact_match"]:
+                for found_name in company_names[:20]:
+                    # Skip generic service categories
+                    if is_service_category(found_name):
+                        continue
+                    website = name_to_website.get(found_name)
+                    if website and domain_matches(cleaned_name, website):
+                        # Additional validation: at least one key word from search
+                        # must appear in the company name to prevent false positives
+                        # from incorrect name-to-website mapping
+                        search_words = set(normalize_name(cleaned_name).split())
+                        name_words = set(normalize_name(found_name).split())
+                        # Remove generic suffixes for comparison
+                        generic = {'inc', 'corp', 'llc', 'co', 'company', 'the', 'of', 'and'}
+                        search_key = search_words - generic - set(ALLOWED_SUFFIXES)
+                        name_key = name_words - generic
+                        # Require at least one word overlap
+                        if search_key & name_key:
+                            result["exact_match"] = True
+                            result["matched_name"] = found_name
+                            result["matched_website"] = website
+                            result["match_method"] = "website"
+                            break
 
             # Store top matches (company names only)
             result["top_matches"] = company_names[:5]
