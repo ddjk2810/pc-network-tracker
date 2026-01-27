@@ -99,20 +99,41 @@ SEARCH_TERM_OVERRIDES = {
 }
 ```
 
-### Matching Logic
+### Matching Logic (Multi-Tier System)
 
-A search result is considered a **match** if:
+Matching uses a three-tier system with name normalization:
 
-1. **Exact match** (case-insensitive, ignoring "The" prefix)
-   - Search: "BECHTEL" → Result: "Bechtel" ✓
+#### Name Normalization
+Before comparison, names are normalized:
+- Remove "THE" prefix
+- Normalize hyphens to spaces ("WHITING-TURNER" → "whiting turner")
+- Normalize ampersands to "and" ("BRASFIELD & GORRIE" → "brasfield and gorrie")
+- Remove periods and commas
+- Collapse multiple spaces
 
-2. **Search term + allowed suffixes only**
-   - Search: "BECHTEL" → Result: "Bechtel Corporation" ✓
-   - Search: "GRANITE CONSTRUCTION" → Result: "Granite Construction Company" ✓
+#### Tier 1: Direct Name Match (Highest Confidence)
+Result name starts with search term and only has allowed suffixes after.
+- Search: "BECHTEL" → Result: "Bechtel Corporation" ✓
+- Search: "WHITING-TURNER CONTRACTING" → Result: "Whiting Turner" ✓ (after normalization)
 
-**NOT a match** if:
+#### Tier 2: Bidirectional Match
+Search term starts with result name (result is shorter version).
+Requires result to have at least 2 significant words.
+- Search: "SATTERFIELD & PONTIKES CONSTRUCTION" → Result: "Satterfield & Pontikes" ✓
+
+#### Tier 3: Website Domain Match (Fallback)
+Key words from search term appear in company's website domain.
+- Search: "CLARK GROUP" → Website: "clarkconstructiongroup.com" ✓
+
+**Additional validation for website matches:**
+- Skip service categories ("Concrete", "Electrical", "Project Management", etc.)
+- Require at least one word overlap between search term and company name
+- This prevents false positives from incorrect name-to-website JSON mapping
+
+**NOT a match if:**
 - Has a prefix: "TURNER" should NOT match "Whiting Turner"
 - Has additional meaningful words: "TURNER" should NOT match "Turner Security"
+- Website matches but company name has no word overlap with search term
 
 **Allowed suffixes:**
 - Inc, Corp, Corporation, LLC, LP, LLP
@@ -176,5 +197,27 @@ playwright install-deps chromium
 4. **Manual overrides** - 36 contractors have custom search terms for better accuracy
 5. **Summary sheet format** - Rows are contractors, columns are dates, values are 1/0 for easy historical tracking
 
-## Session Date
-2026-01-15
+## Current Results (2026-01-27)
+
+- **253 matches (63.4%)** of ENR Top 400 found on Procore
+- **146 contractors (36.6%)** not found
+
+### False Positives Eliminated
+The multi-tier matching with validation prevents these false positives:
+| Rank | ENR Name | Was Matching | Reason Invalid |
+|------|----------|--------------|----------------|
+| 191 | OPUS GROUP | Access Flooring (via opus-group.com) | Name has no word overlap |
+| 303 | JPI | Unknown (via jpi website) | Name has no word overlap |
+| 353 | D.F. CHASE | D & F Steel LLC (via dfchase.com) | Name has no word overlap |
+
+### Key Functions in scraper_enr.py
+- `normalize_name()` - Normalizes hyphens, ampersands, punctuation for comparison
+- `name_matches()` - Tier 1: Forward prefix matching
+- `bidirectional_match()` - Tier 2: Reverse prefix matching (result is shorter)
+- `domain_matches()` - Tier 3: Website domain verification
+- `is_service_category()` - Filters out generic service categories from website matching
+
+## Session History
+- **2026-01-15**: Initial setup, basic matching logic
+- **2026-01-26**: Added name normalization (hyphens, ampersands), bidirectional matching, website domain verification
+- **2026-01-27**: Added false positive prevention for website matches (word overlap validation)
