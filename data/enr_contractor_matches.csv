@@ -1,400 +1,400 @@
 timestamp,rank,original_name,search_term,exact_match,match_count,top_matches
-2026-03-09 07:25:24 UTC,1,THE TURNER CORP.,TURNER,False,1376,Turner Security; Electronic Security; Whiting Turner
-2026-03-09 07:25:24 UTC,2,BECHTEL,BECHTEL,True,50,Bechtel; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,3,MASTEC INC.,MASTEC,True,1789,Fasten Master; Design and Engineering; MasTec
-2026-03-09 07:25:24 UTC,4,KIEWIT CORP.,KIEWIT,True,57,Kiewit; Wall Specialties; Design and Engineering
-2026-03-09 07:25:24 UTC,5,STO BUILDING GROUP,STO BUILDING,False,5948,"STO Design Group, Inc.; Design and Engineering; Manning Building"
-2026-03-09 07:25:24 UTC,6,DPR CONSTRUCTION,DPR CONSTRUCTION,True,35200,DPR Construction; Ceilings; Concrete
-2026-03-09 07:25:24 UTC,7,THE WHITING-TURNER CONTRACTING CO.,WHITING-TURNER CONTRACTING,True,7079,Whiting Turner; Communications; Concrete
-2026-03-09 07:25:24 UTC,8,FLUOR,FLUOR,True,1421,Fluor; Project Management and Coordination; Bim and Model Making Services
-2026-03-09 07:25:24 UTC,9,CLARK GROUP,CLARK GROUP,True,9811,Clark Construcion Group; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,10,SKANSKA USA,SKANSKA USA,True,5335,Skanska USA; Communications; Project Management and Coordination
-2026-03-09 07:25:24 UTC,11,HENSEL PHELPS,HENSEL PHELPS,True,1369,Hensel Phelps; Construction Aides; Project Management and Coordination
-2026-03-09 07:25:24 UTC,12,GILBANE BUILDING CO.,GILBANE BUILDING,True,5957,Gilbane Building; General Construction Management; Gilbane Building Company
-2026-03-09 07:25:24 UTC,13,PCL CONSTRUCTION ENTERPRISES,PCL CONSTRUCTION,True,35210,PCL Construction; General Construction Management; Concrete
-2026-03-09 07:25:24 UTC,14,AECOM,AECOM,True,145,AECOM; Design and Engineering; Concrete
-2026-03-09 07:25:24 UTC,15,THE WALSH GROUP,WALSH GROUP,True,9647,Walsh Group; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,16,JE DUNN CONSTRUCTION GROUP,JE DUNN CONSTRUCTION,True,35284,JE Dunn Construction; Communications; Concrete
-2026-03-09 07:25:24 UTC,17,ARCO CONSTRUCTION COS.,ARCO CONSTRUCTION,True,35211,Arco Construction; Roofing; ARCO
-2026-03-09 07:25:24 UTC,18,HITT CONTRACTING INC.,HITT CONTRACTING,True,6900,HITT Contracting; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,19,MCCARTHY HOLDINGS INC.,MCCARTHY HOLDINGS,True,860,McCarthy Holdings Inc; Concrete; Project Management and Coordination
-2026-03-09 07:25:24 UTC,20,CLAYCO,CLAYCO,True,352,Clayco; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,21,BRASFIELD & GORRIE LLC,BRASFIELD & GORRIE,False,23,Brasfield Construction; Project Management and Coordination; Lindsay Pope Brayfield
-2026-03-09 07:25:24 UTC,22,MORTENSON,MORTENSON,True,44,Mortenson; Project Management and Coordination; Concrete
-2026-03-09 07:25:24 UTC,23,TUTOR PERINI CORP.,TUTOR PERINI,True,314,Tutor Perini; Project Management and Coordination; Tutor Perini Corporation
-2026-03-09 07:25:24 UTC,24,SUFFOLK CONSTRUCTION CO. INC.,SUFFOLK CONSTRUCTION,True,35228,Suffolk Construction; Project Management and Coordination; Design and Engineering
-2026-03-09 07:25:24 UTC,25,BARTON MALOW HOLDINGS LLC,BARTON MALOW,True,82,Barton Malow; Project Management and Coordination; Barton Malow Builders
-2026-03-09 07:25:24 UTC,26,BALFOUR BEATTY US,BALFOUR BEATTY US,True,3078,Balfour Beatty US; Construction Scheduling; Balfour Beatty Infrastructure US
-2026-03-09 07:25:24 UTC,27,HOLDER CONSTRUCTION,HOLDER CONSTRUCTION,True,35206,Holder Construction; Project Management and Coordination; Holder
-2026-03-09 07:25:24 UTC,28,RYAN COS. US INC.,RYAN COMPANIES,True,1675,Ryan Companies; Design and Engineering; General Construction Management
-2026-03-09 07:25:24 UTC,29,SWINERTON,SWINERTON,True,26,Swinerton; Project Management and Coordination; Airfield Construction
-2026-03-09 07:25:24 UTC,30,HOFFMAN CONSTRUCTION,HOFFMAN CONSTRUCTION,True,35266,office; Hoffman Construction; Concrete
-2026-03-09 07:25:24 UTC,31,BURNS & MCDONNELL,BURNS & MCDONNELL,False,153,John burns; Communications; Burns Engineering
-2026-03-09 07:25:24 UTC,32,MICHELS CORP.,MICHELS,True,637,Michels; Bored Piles; Michaels
-2026-03-09 07:25:24 UTC,33,ZACHRY GROUP,ZACHRY GROUP,True,9587,Zachry Group; Design and Engineering; Concrete
-2026-03-09 07:25:24 UTC,34,WALBRIDGE,WALBRIDGE,True,65,Walbridge; Concrete; Design and Engineering
-2026-03-09 07:25:24 UTC,35,DRAGADOS,DRAGADOS,True,10,Dragados; Concrete; Flatiron Dragados
-2026-03-09 07:25:24 UTC,36,GRANITE CONSTRUCTION INC.,GRANITE CONSTRUCTION,True,36131,Granite Construction; Concrete; Earthwork
-2026-03-09 07:25:24 UTC,37,GRAY CONSTRUCTION,GRAY CONSTRUCTION,False,35254,JL Gray Construction; Concrete; Earthwork
-2026-03-09 07:25:24 UTC,38,AUSTIN INDUSTRIES,AUSTIN INDUSTRIES,False,5934,Industrial Rigging Service of Austin; Structural Steel; Vortex Austin
-2026-03-09 07:25:24 UTC,39,ALBERICI-FLINTCO,ALBERICI-FLINTCO,False,0,
-2026-03-09 07:25:24 UTC,40,THE YATES COS. INC.,YATES CONSTRUCTION,True,35222,Yates Construction; Project Management and Coordination; Curbs and Gutters
-2026-03-09 07:25:24 UTC,41,CONSIGLI BUILDING GROUP INC.,CONSIGLI BUILDING,False,5947,Consigli; Project Management and Coordination; Consigli Construction
-2026-03-09 07:25:24 UTC,42,BLACK & VEATCH,BLACK & VEATCH,False,938,Morris Black; Design and Engineering; Black Forest
-2026-03-09 07:25:24 UTC,43,BIG-D CONSTRUCTION,BIG-D CONSTRUCTION,True,36712,Big D Construction; Project Management and Coordination; Pebcor Corporation
-2026-03-09 07:25:24 UTC,44,MOSS,MOSS,True,1437,office; Womenâs Business; Moms and Mops
-2026-03-09 07:25:24 UTC,45,TURNER INDUSTRIES GROUP LLC,TURNER INDUSTRIES,True,5724,Turner Industries Group; Concrete; Demolition
-2026-03-09 07:25:24 UTC,46,DEVCON CONSTRUCTION INC.,DEVCON CONSTRUCTION,False,35197,Devcon; Design and Engineering; DeVCon Distribution
-2026-03-09 07:25:24 UTC,47,FERROVIAL CONSTRUCTION US HOLDINGS CORP.,FERROVIAL CONSTRUCTION US,True,31342,Ferrovial Construction US; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,48,ALSTON CONSTRUCTION,ALSTON CONSTRUCTION,True,35196,Alston Construction; Project Management and Coordination; Communications
-2026-03-09 07:25:24 UTC,49,FLATIRON CONSTRUCTION,FLATIRON CONSTRUCTION,True,35208,Flatiron Construction; Concrete; Demolition
-2026-03-09 07:25:24 UTC,50,THE CONLAN COMPANY,CONLAN COMPANY,False,16919,ConlanPlastering LLC; Locally Based Business Enterprise; Conlan Plastering LLC
-2026-03-09 07:25:24 UTC,51,STERLING INFRASTRUCTURE INC.,STERLING INFRASTRUCTURE,False,869,Sterling Appliance; Equipment; Sterling Woodcraft
-2026-03-09 07:25:24 UTC,52,PEPPER CONSTRUCTION,PEPPER CONSTRUCTION,True,35199,Pepper Construction; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,53,LENDLEASE,LENDLEASE,True,5,Lendlease; Project Management and Coordination; Project Management
-2026-03-09 07:25:24 UTC,54,FCL BUILDERS LLC,FCL BUILDERS,True,4216,FCL Builders; Project Management and Coordination; FCL Builders Arizona LLC
-2026-03-09 07:25:24 UTC,55,FORTIS CONSTRUCTION INC.,FORTIS CONSTRUCTION,True,35217,Fortis; Communications; Concrete
-2026-03-09 07:25:24 UTC,56,EVANS GENERAL CONTRACTORS,EVANS GENERAL,True,5350,Evans General Contractors; Communications; Concrete
-2026-03-09 07:25:24 UTC,57,MIRON CONSTRUCTION CO. INC.,MIRON CONSTRUCTION,True,35194,Miron Construction; Bim and Model Making Services; Ceilings
-2026-03-09 07:25:24 UTC,58,HARVEY | HARVEY-CLEARY,HARVEY CLEARY,True,2359,Houston Office (Corporate Headquarters); Austin Office; DC Office
-2026-03-09 07:25:24 UTC,59,HASKELL,HASKELL,True,73,Haskell; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,60,THE KOKOSING GROUP OF COS.,KOKOSING,True,5,Kokosing Industrial; Concrete; Earthwork
-2026-03-09 07:25:24 UTC,61,ROBINS & MORTON,ROBINS & MORTON,True,382,robins and morton; Project Management and Coordination; Robins Handyman Group
-2026-03-09 07:25:24 UTC,62,SUNDT CONSTRUCTION INC.,SUNDT CONSTRUCTION,True,35195,Sundt Construction; General Construction Management; Transportation Construction and Equipment
-2026-03-09 07:25:24 UTC,63,CHOATE CONSTRUCTION CO.,CHOATE CONSTRUCTION,True,35201,Choate Construction Company; General Construction Management; Choate USA
-2026-03-09 07:25:24 UTC,64,CLUNE CONSTRUCTION,CLUNE CONSTRUCTION,True,35195,Clune Construction; Project Management and Coordination; Clune
-2026-03-09 07:25:24 UTC,65,AMES CONSTRUCTION INC.,AMES CONSTRUCTION,True,35205,Ames Construction; Design and Engineering; Earthwork
-2026-03-09 07:25:24 UTC,66,J.T. MAGEN & CO. INC.,J.T. MAGEN,True,2422,JT Magen; Project Management and Coordination; T J Conway Company
-2026-03-09 07:25:24 UTC,67,E.E. REED CONSTRUCTION LP,E.E. REED CONSTRUCTION,False,35956,E ALL CONSTRUCTION; Cleaning Services; Final Cleaning
-2026-03-09 07:25:24 UTC,68,HUNTER ROBERTS CONSTRUCTION GROUP LLC,HUNTER ROBERTS CONSTRUCTION,True,35403,Hunter Roberts Construction Group; Project Management and Coordination; Roberts
-2026-03-09 07:25:24 UTC,69,CORE CONSTRUCTION GROUP,CORE CONSTRUCTION,True,35725,Core Construction; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,70,MANHATTAN CONSTRUCTION GROUP,MANHATTAN CONSTRUCTION,True,35254,Manhattan Construction; Project Management and Coordination; Communications
-2026-03-09 07:25:24 UTC,71,GARNEY HOLDING CO.,GARNEY,True,985,Garney; Concrete; Demolition
-2026-03-09 07:25:24 UTC,72,THE WEITZ CO. & AFFILIATES,WEITZ COMPANY,True,16925,The Weitz Company; General Construction Management; weitz
-2026-03-09 07:25:24 UTC,73,MESSER CONSTRUCTION CO.,MESSER CONSTRUCTION,True,35201,Messer Construction; Project Management and Coordination; Messer
-2026-03-09 07:25:24 UTC,74,F.A. WILHELM CONSTRUCTION,F.A. WILHELM CONSTRUCTION,True,35497,F.A. Wilhelm; Project Management and Coordination; Wilhelm Commercial Builders
-2026-03-09 07:25:24 UTC,75,POWER CONSTRUCTION CO. LLC,POWER CONSTRUCTION,True,36720,Power Construction; Project Management and Coordination; Power Engineering Construction
-2026-03-09 07:25:24 UTC,76,HATHAWAY DINWIDDIE CONSTRUCTION CO.,HATHAWAY DINWIDDIE CONSTRUCTION,True,35202,Hathaway Dinwiddie; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,77,THE BOLDT CO.,BOLDT,True,104,BOLDT; Concrete; Earthwork
-2026-03-09 07:25:24 UTC,78,OKLAND CONSTRUCTION,OKLAND CONSTRUCTION,True,35193,Okland Construction; Project Management and Coordination; Concrete
-2026-03-09 07:25:24 UTC,79,THE MCSHANE COS.,MCSHANE,True,49,McShane Construction; Project Management and Coordination; Cadence McShane
-2026-03-09 07:25:24 UTC,80,BRINKMANN CONSTRUCTORS,BRINKMANN,True,17,"St. Louis, MO; Denver, CO; Florida"
-2026-03-09 07:25:24 UTC,81,LANE INDUSTRIES INC.,LANE INDUSTRIES,False,5647,Lane Valente Industries; Electrical; Heating Ventilating and Air Conditioning HVAC
-2026-03-09 07:25:24 UTC,82,ADOLFSON & PETERSON CONSTRUCTION,ADOLFSON & PETERSON CONSTRUCTION,True,12,Adolfson & Peterson Constructions; Design and Engineering; General Construction Management
-2026-03-09 07:25:24 UTC,83,CONSTRUCTION PARTNERS,CONSTRUCTION PARTNERS,True,31086,Partners Construction; Project Management and Coordination; Industrialized Construction Partners
-2026-03-09 07:25:24 UTC,84,SAMET CORP.,SAMET,True,342,Samet corp; Project Management and Coordination; Blue Line Painting
-2026-03-09 07:25:24 UTC,85,THE CHRISTMAN CO.,CHRISTMAN,True,124,Christman; Concrete; Demolition
-2026-03-09 07:25:24 UTC,86,SUMMIT CONTRACTING GROUP INC.,SUMMIT CONTRACTING,True,7275,Summit contracting; Concrete; Structure and Building Moving Relocation
-2026-03-09 07:25:24 UTC,87,ALLAN MYERS,ALLAN MYERS,True,231,allan myers; Earthwork; Plumbing
-2026-03-09 07:25:24 UTC,88,OHLA USA INC.,OHLA USA,True,5319,OHLA USA; Project Management and Coordination; OHLA U.S.A
-2026-03-09 07:25:24 UTC,89,SHAWMUT DESIGN AND CONSTRUCTION,SHAWMUT DESIGN AND CONSTRUCTION,True,1228,Shawmut Design & Construction; Project Management and Coordination; shawmut design and construction
-2026-03-09 07:25:24 UTC,90,DAY & ZIMMERMANN,DAY & ZIMMERMANN,False,2753,Dan Fay Plumbing; Small Business; Plumbing
-2026-03-09 07:25:24 UTC,91,CROSSLAND CONSTRUCTION CO. INC.,CROSSLAND CONSTRUCTION,False,35201,CROSSLAND; Plumbing; Crossland Holdings
-2026-03-09 07:25:24 UTC,92,S&B ENGINEERS AND CONSTRUCTORS,S&B ENGINEERS,False,1212,office; S C S Concrete; Concrete
-2026-03-09 07:25:24 UTC,93,BNBUILDERS,BNBUILDERS,True,2775,BNBuilders; Ceilings; Concrete
-2026-03-09 07:25:24 UTC,94,PJ DICK - TRUMBULL - LINDY GROUP,PJ DICK,True,777,PJ Dick; Project Management and Coordination; PJ kennedy
-2026-03-09 07:25:24 UTC,96,THE CIANBRO COS.,CIANBRO,True,9,"Cianbro Corporation; Cianbro Equipment, LLC; Cianbro Fabrication & Coating"
-2026-03-09 07:25:24 UTC,97,SOUTHLAND HOLDINGS,SOUTHLAND,True,160,"Southland Industries; The Brandt Companies, LLC; Southland"
-2026-03-09 07:25:24 UTC,98,BL HARBERT INTERNATIONAL,BL HARBERT INTERNATIONAL,True,1265,BL Harbert International; Concrete; B.L. Harbert International
-2026-03-09 07:25:24 UTC,99,TEICHERT CONSTRUCTION,TEICHERT CONSTRUCTION,False,35195,"A. Teichert & Son, Inc. dba Teichert Construction; Earthwork; Teichert Energy and Utilities"
-2026-03-09 07:25:24 UTC,100,LEVEL 10 CONSTRUCTION,LEVEL 10 CONSTRUCTION,False,35606,Next level Construction; Ceilings; Concrete
-2026-03-09 07:25:24 UTC,101,CBRE,CBRE,True,1983,CBRE; Project Management and Coordination; Architectural Design and Engineering
-2026-03-09 07:25:24 UTC,102,NABHOLZ,NABHOLZ,True,14,Nabholz; Project Management and Coordination; Design and Engineering
-2026-03-09 07:25:24 UTC,103,KPRS CONSTRUCTION,KPRS CONSTRUCTION,False,35193,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
-2026-03-09 07:25:24 UTC,104,BLUE RIDGE POWER,BLUE RIDGE POWER,True,3023,Blue Ridge Power; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,105,THE RUDOLPH LIBBE COS. INC.,RUDOLPH LIBBE,True,31,"Rudolph Libbe, Inc.; Concrete; Rudolph Murph"
-2026-03-09 07:25:24 UTC,106,VINCI CONSTRUCTION USA,VINCI CONSTRUCTION USA,False,33371,VINCI CONSULTANTS; Design and Engineering; Landscaping
-2026-03-09 07:25:24 UTC,107,HOAR CONSTRUCTION,HOAR CONSTRUCTION,True,35194,Hoar Construction; Communications; General Construction Management
-2026-03-09 07:25:24 UTC,108,CRB,CRB,True,723,CRB; Design and Engineering; Ceilings
-2026-03-09 07:25:24 UTC,109,ANDERSEN CONSTRUCTION,ANDERSEN CONSTRUCTION,False,35240,Andersen; Demolition; Rough Carpentry
-2026-03-09 07:25:24 UTC,110,WEBCOR,WEBCOR,True,414,Webcor Carpentrry; Curtain Wall and Glazed Assemblies; Door and Window Hardware
-2026-03-09 07:25:24 UTC,111,GRAHAM CONSTRUCTION,GRAHAM CONSTRUCTION,True,35259,Graham Construction; Communications; Concrete
-2026-03-09 07:25:24 UTC,112,J.H. FINDORFF & SON INC.,J.H. FINDORFF,False,2454,Findorff; Concrete; Demolition
-2026-03-09 07:25:24 UTC,113,LECHASE CONSTRUCTION SERVICES LLC,LECHASE CONSTRUCTION,True,35194,LeChase; Project Management and Coordination; Rough Carpentry
-2026-03-09 07:25:24 UTC,114,WEEKS MARINE INC.,WEEKS MARINE,False,3122,office; Dulohery Weeks; Design and Engineering
-2026-03-09 07:25:24 UTC,115,JRM CONSTRUCTION MANAGEMENT,JRM CONSTRUCTION MANAGEMENT,True,31289,JRM CONSTRUCTION MANAGEMENT; Ceilings; Communications
-2026-03-09 07:25:24 UTC,116,MCGOUGH,MCGOUGH,True,29,McGough; Project Management and Coordination; McGough Adamson
-2026-03-09 07:25:24 UTC,117,HERZOG,HERZOG,False,66,"Herzog Glass; Glass and Glazing; Herzog Engineering, LLC"
-2026-03-09 07:25:24 UTC,118,APTIM,APTIM,True,4,Aptim; Project Management and Coordination; Environmental Assessment
-2026-03-09 07:25:24 UTC,119,THE BECK GROUP,BECK GROUP,True,9623,Beck Group; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,120,OLTMANS CONSTRUCTION CO.,OLTMANS CONSTRUCTION,True,35194,Oltmans; Concrete; Oltmans Construction Co.
-2026-03-09 07:25:24 UTC,121,CATAMOUNT CONSTRUCTORS INC.,CATAMOUNT CONSTRUCTORS,True,5576,"Catamount constructors; Project Management and Coordination; Catamount Constructors, Inc."
-2026-03-09 07:25:24 UTC,122,BUILD GROUP,BUILD GROUP,True,11168,Build Group; Communications; Concrete
-2026-03-09 07:25:24 UTC,123,JINGOLI - DCO,JINGOLI,True,4,office; Jingoli; General Construction Management
-2026-03-09 07:25:24 UTC,124,JAMES G. DAVIS CONSTRUCTION CORP.,JAMES G. DAVIS CONSTRUCTION,True,36527,"DMV; Baltimore; Chiaramonte DAVIS, a Joint Venture"
-2026-03-09 07:25:24 UTC,125,ASRC INDUSTRIAL,ASRC INDUSTRIAL,False,5067,ASRC Construction; Project Management and Coordination; Daedalus industrial
-2026-03-09 07:25:24 UTC,126,IPS-INTEGRATED PROJECT SERVICES LLC,IPS-INTEGRATED PROJECT,True,7754,IPS Integrated Project Services; Design and Engineering; IPS
-2026-03-09 07:25:24 UTC,127,JAMES R. VANNOY & SONS CONSTRUCTION CO. INC.,JAMES R. VANNOY & SONS CONSTRUCTION,False,1961,Vannoy; Vannoy Construction; Project Management and Coordination
-2026-03-09 07:25:24 UTC,128,THE PENTA BUILDING GROUP,PENTA BUILDING,True,5951,PENTA Building Group; Communications; Design and Engineering
-2026-03-09 07:25:24 UTC,129,WILLMENG CONSTRUCTION,WILLMENG CONSTRUCTION,True,35193,Willmeng Construction; Project Management and Coordination; HTF CONSTRUCTION CONSTRUCTION
-2026-03-09 07:25:24 UTC,130,ENGINEERED STRUCTURES INC.,ENGINEERED STRUCTURES,True,3293,Engineered Structures Inc; Project Management and Coordination; Engineered structures inc.
-2026-03-09 07:25:24 UTC,131,CLANCY & THEYS CONSTRUCTION,CLANCY & THEYS CONSTRUCTION,True,291,Goody Clancy; Design and Engineering; Clancy Theys
-2026-03-09 07:25:24 UTC,132,JACOBSEN CONSTRUCTION CO. INC.,JACOBSEN CONSTRUCTION,False,35197,Jacobsen Alves Goodeill; Main Office ; Heating Ventilating and Air Conditioning HVAC
-2026-03-09 07:25:24 UTC,133,EXYTE AMERICAS HOLDING INC.,EXYTE AMERICAS,False,3266,Exyte; Design and Engineering; Exyte U.S. Inc.
-2026-03-09 07:25:24 UTC,134,JOERIS GENERAL CONTRACTORS,JOERIS GENERAL,True,5209,Joeris General Contractors; Project Management and Coordination; Communications
-2026-03-09 07:25:24 UTC,135,SATTERFIELD & PONTIKES CONSTRUCTION INC.,SATTERFIELD & PONTIKES CONSTRUCTION,True,13,office; Satterfield Woodworking Inc; Ceilings
-2026-03-09 07:25:24 UTC,136,HILLWOOD CONSTRUCTION SERVICES,HILLWOOD CONSTRUCTION,True,35197,Hillwood; Hillwood Construction Services; Project Management and Coordination
-2026-03-09 07:25:24 UTC,137,BARTLETT COCKE GENERAL CONTRACTORS LLC,BARTLETT COCKE GENERAL,True,5239,Bartlett cocke general contractors; General Construction Management; Project Management and Coordination
-2026-03-09 07:25:24 UTC,138,DENNIS GROUP,DENNIS GROUP,True,9660,Dennis Group; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,139,RYCON CONSTRUCTION INC.,RYCON CONSTRUCTION,True,35193,"Rycon Construction, Inc.; Concrete; Demolition"
-2026-03-09 07:25:24 UTC,140,FERREIRA CONSTRUCTION CO. INC.,FERREIRA CONSTRUCTION,True,35198,Ferreira Construction; Ferreira; Traffic Control
-2026-03-09 07:25:24 UTC,141,XL CONSTRUCTION CORP.,XL CONSTRUCTION,False,35217,Structures XL; Structural Steel; AXA XL
-2026-03-09 07:25:24 UTC,142,TRAYLOR CONSTRUCTION GROUP INC.,TRAYLOR CONSTRUCTION,False,35200,Traylor Industrial; Structural Steel; Traylor Electric Company Inc.
-2026-03-09 07:25:24 UTC,143,F.H. PASCHEN,F.H. PASCHEN,True,1086,F H Paschen; Project Management and Coordination; F. H. Paschen
-2026-03-09 07:25:24 UTC,144,ROGERS-O,ROGERS-O,False,132,Rogers-O' Brien; Bim and Model Making Services; General Construction Management
-2026-03-09 07:25:24 UTC,145,GOODFELLOW BROS.,GOODFELLOW BROS,True,920,Goodfellow Bros; Earthwork; Demolition
-2026-03-09 07:25:24 UTC,146,MILLIE AND SEVERSON GENERAL CONTRACTORS,MILLIE AND SEVERSON GENERAL,False,1,Millie and Severson; Project Management and Coordination; How many contractors in the United States are on the Procore Construction Network?
-2026-03-09 07:25:24 UTC,147,HANOVER CO.,HANOVER,True,143,ranger fire inc; hanover; Fire Suppression
-2026-03-09 07:25:24 UTC,148,MATRIX SERVICE CO.,MATRIX,True,734,Matrix; Demolition; Kevin Lord
-2026-03-09 07:25:24 UTC,149,KAST CONSTRUCTION LLC,KAST CONSTRUCTION,True,35195,"KAST Construction; KAST Construction Company, LLC; General Construction Management"
-2026-03-09 07:25:24 UTC,150,SHIMMICK,SHIMMICK,True,5,"Shimmick; Electrical; Shimmick Construction Company, Inc."
-2026-03-09 07:25:24 UTC,151,PARIC HOLDINGS,PARIC,True,43,PARIC; Design and Engineering; Paric Corporatiom
-2026-03-09 07:25:24 UTC,152,VCC LLC,VCC,True,534,VCC; Project Management and Coordination; Rock Solid RCC LCC
-2026-03-09 07:25:24 UTC,153,H&M CO. INC.,H&M,False,712,H H Distributors; H And H Pools; Swimming Pools
-2026-03-09 07:25:24 UTC,154,ORION GROUP HOLDINGS INC.,ORION GROUP,False,9650,ORION CONSTRUCTION GROUP; Communications; Concrete
-2026-03-09 07:25:24 UTC,155,C D SMITH CONSTRUCTION,C D SMITH CONSTRUCTION,False,37882,office; C & D; Electrical
-2026-03-09 07:25:24 UTC,156,LEASE CRUTCHER LEWIS,LEASE CRUTCHER LEWIS,True,220,Lease Crutcher Lewis; Communications; Concrete
-2026-03-09 07:25:24 UTC,157,ECC,ECC,True,1373,ECC; Concrete; Design and Engineering
-2026-03-09 07:25:24 UTC,158,STACY AND WITBECK INC.,STACY AND WITBECK,True,7,"Stacy Witbeck Herzog, a Joint Venture; Stacy Witbeck; General Construction Management"
-2026-03-09 07:25:24 UTC,159,TORCON INC.,TORCON,False,641,TOMCON; Concrete; Dorion Norton Electrical Contracting Corp
-2026-03-09 07:25:24 UTC,160,WHARTON-SMITH INC.,WHARTON-SMITH,False,0,
-2026-03-09 07:25:24 UTC,161,WEIS BUILDERS INC.,WEIS,True,133,Weis Builders; Project Management and Coordination; Weis construction
-2026-03-09 07:25:24 UTC,162,PHILLIPS INFRASTRUCTURE HOLDINGS,PHILLIPS INFRASTRUCTURE,False,850,Phillips; Ceilings; Countertops
-2026-03-09 07:25:24 UTC,163,CADDELL CONSTRUCTION,CADDELL CONSTRUCTION,False,35195,Caddell; Concrete; Design and Engineering
-2026-03-09 07:25:24 UTC,164,BILFINGER NORTH AMERICA INC.,BILFINGER NORTH AMERICA,False,4486,Bilfinger; Concrete; Electrical
-2026-03-09 07:25:24 UTC,165,BARNARD CONSTRUCTION CO. INC.,BARNARD CONSTRUCTION,True,35198,Barnard Construction; Electrical; Tina Barnard Designs
-2026-03-09 07:25:24 UTC,166,KAJIMA BUILDING & DESIGN GROUP INC.,KAJIMA BUILDING & DESIGN,False,5943,Manning Building; Rough Carpentry; Building Center
-2026-03-09 07:25:24 UTC,167,WOOD PLC,WOOD PLC,True,63494,WOOD PLC; Design and Engineering; Wood 
-2026-03-09 07:25:24 UTC,168,TRUEBECK CONSTRUCTION,TRUEBECK CONSTRUCTION,False,35193,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
-2026-03-09 07:25:24 UTC,169,COASTAL CONSTRUCTION GROUP,COASTAL CONSTRUCTION,True,35585,Coastal Construction; Demolition; Earthwork
-2026-03-09 07:25:24 UTC,170,MCCOWNGORDON CONSTRUCTION,MCCOWNGORDON CONSTRUCTION,False,35194,McCownGordon; Project Management and Coordination; HTF CONSTRUCTION CONSTRUCTION
-2026-03-09 07:25:24 UTC,171,BOZZUTO CONSTRUCTION CO.,BOZZUTO CONSTRUCTION,True,35197,Bozzuto; General Construction Management; Communications
-2026-03-09 07:25:24 UTC,172,DELLBROOK|JKS,DELLBROOK|JKS,False,0,
-2026-03-09 07:25:24 UTC,173,ANDERSON COLUMBIA CO. INC.,ANDERSON COLUMBIA,True,738,Anderson Columbia; Concrete; Earthwork
-2026-03-09 07:25:24 UTC,174,SAULSBURY,SAULSBURY,True,26,"Saulsbury; Process Piping; Saulsbury Industries, Inc."
-2026-03-09 07:25:24 UTC,175,GREAT LAKES DREDGE & DOCK CO.,GREAT LAKES DREDGE & DOCK,False,1915,Great Lakes Plumbing; Heating Ventilating and Air Conditioning HVAC; Plumbing
-2026-03-09 07:25:24 UTC,176,KRAUS-ANDERSON,KRAUS-ANDERSON,True,3,Kraus-Anderson; Project Management and Coordination; office
-2026-03-09 07:25:24 UTC,177,SPAWGLASS HOLDING,SPAWGLASS,True,11,SpawGlass; Project Management and Coordination; Rough Carpentry
-2026-03-09 07:25:24 UTC,178,UNITED ENGINEERS & CONSTRUCTORS INC.,UNITED ENGINEERS,True,3874,"United Engines; Electrical; United Engineers & Constructors, Inc."
-2026-03-09 07:25:24 UTC,179,KITCHELL CORP.,KITCHELL,True,1201,Kitchell; Project Management and Coordination; Design and Engineering
-2026-03-09 07:25:24 UTC,180,SELLEN CONSTRUCTION,SELLEN CONSTRUCTION,False,35194,Sellen; Concrete; Demolition
-2026-03-09 07:25:24 UTC,181,WILLIAMS BROTHERS CONSTRUCTION CO. INC.,WILLIAMS BROTHERS CONSTRUCTION,True,36681,williams brothers; Rough Carpentry; Sherwin Williams
-2026-03-09 07:25:24 UTC,182,COMMERCIAL CONTRACTING CORP.,COMMERCIAL CONTRACTING,True,15795,Loveless Commercial Contracting; Concrete; Earthwork
-2026-03-09 07:25:24 UTC,183,FCI CONSTRUCTORS INC.,FCI CONSTRUCTORS,True,5589,FCI; Foster Constructors Inc.; Demolition
-2026-03-09 07:25:24 UTC,184,STELLAR,STELLAR,True,137,Stellar; Design and Engineering; African American Business
-2026-03-09 07:25:24 UTC,185,SUPERIOR CONSTRUCTION HOLDING CO. INC.,SUPERIOR CONSTRUCTION,True,36179,Superior Construction; Earthwork; Concrete
-2026-03-09 07:25:24 UTC,186,SAUNDERS CONSTRUCTION INC.,SAUNDERS CONSTRUCTION,True,35209,Saunders Construction; Concrete; Demolition
-2026-03-09 07:25:24 UTC,187,BATSON-COOK CONSTRUCTION,BATSON-COOK CONSTRUCTION,False,35326,Turner Batson; Design and Engineering; Batson Inc.
-2026-03-09 07:25:24 UTC,188,PEINADO CONSTRUCTION,PEINADO CONSTRUCTION,True,35193,Peinado Construction; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,189,LANDMARK CONSTRUCTION LLC,LANDMARK CONSTRUCTION,True,35317,Landmark; Concrete; Earthwork
-2026-03-09 07:25:24 UTC,190,BARNHILL CONTRACTING CO.,BARNHILL CONTRACTING,True,6895,Barnhill Contracting; Concrete; Structural Steel
-2026-03-09 07:25:24 UTC,191,THE OPUS GROUP,OPUS GROUP,False,9592,Opus Valley; 3d Capture Scanning; Access Control
-2026-03-09 07:25:24 UTC,192,LEE LEWIS CONSTRUCTION INC.,LEE LEWIS CONSTRUCTION,False,35563,Lee Lewis Construction Inc. - HQ; Austin Office; Dallas Office
-2026-03-09 07:25:24 UTC,193,GLY CONSTRUCTION,GLY CONSTRUCTION,True,35193,GLY Construction; Project Management and Coordination; HTF CONSTRUCTION CONSTRUCTION
-2026-03-09 07:25:24 UTC,194,ARCH-CON CORP.,ARCH-CON,True,15,Archeton LLC; Design and Engineering; Archeon Group
-2026-03-09 07:25:24 UTC,195,LAS VEGAS PAVING CORP.,LAS VEGAS PAVING,True,5882,Las Vegas Paving; Concrete; Earthwork
-2026-03-09 07:25:24 UTC,196,STAKER PARSON MATERIALS & CONSTRUCTION,STAKER PARSON MATERIALS & CONSTRUCTION,False,1822,Staker Parson Companies; Earthwork; office
-2026-03-09 07:25:24 UTC,197,POGUE CONSTRUCTION CO. LP,POGUE CONSTRUCTION,False,35195,Pogue Electric Service Inc.; Electrical; HTF CONSTRUCTION CONSTRUCTION
-2026-03-09 07:25:24 UTC,198,HAWAIIAN DREDGING CONSTRUCTION CO. INC.,HAWAIIAN DREDGING CONSTRUCTION,True,35217,Hawaiian Dredging Construction Company; Construction Scheduling; Crosby Dredging
-2026-03-09 07:25:24 UTC,199,CALLAHAN INC.,CALLAHAN,True,55,office; Callahan Inc; Project Management and Coordination
-2026-03-09 07:25:24 UTC,200,ZACHRY CONSTRUCTION CORP.,ZACHRY CONSTRUCTION,True,35200,Zachry Construction Corporation; Concrete; Demolition
-2026-03-09 07:25:24 UTC,201,GRAYCOR,GRAYCOR,True,210,Graycor; Concrete; Demolition
-2026-03-09 07:25:24 UTC,202,GE JOHNSON,GE JOHNSON,False,1024,Project Management and Coordination; Electrical; Design and Engineering
-2026-03-09 07:25:24 UTC,203,C.W. DRIVER COS.,C.W. DRIVER,False,4757,C & W; Masonry; Project Management and Coordination
-2026-03-09 07:25:24 UTC,204,MYCON GENERAL CONTRACTORS INC.,MYCON GENERAL,False,5209,Mycon; Communications; Concrete
-2026-03-09 07:25:24 UTC,205,MASCARO CONSTRUCTION CO. LP,MASCARO CONSTRUCTION,True,35193,Mascaro Construction; Ceilings; Concrete
-2026-03-09 07:25:24 UTC,206,PARKWAY C&A,PARKWAY C&A,True,1378,Parkway; General Construction Management; Parkway electric
-2026-03-09 07:25:24 UTC,207,DOME CONSTRUCTION,DOME CONSTRUCTION,False,35201,Dome Technology; Project Management and Coordination; Dome Engineering Group
-2026-03-09 07:25:24 UTC,208,SKYLINE CONSTRUCTION,SKYLINE CONSTRUCTION,True,35355,Skyline Construction; General Construction Management; Project Management
-2026-03-09 07:25:24 UTC,209,ELFORD INC.,ELFORD,False,425,Alford Group; Access Doors and Panels; Access Flooring
-2026-03-09 07:25:24 UTC,210,DIMEO CONSTRUCTION CO.,DIMEO CONSTRUCTION,False,35194,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
-2026-03-09 07:25:24 UTC,211,SLETTEN COS.,SLETTEN,True,31,Sletten Construction; Design and Engineering; Rudolph & Sletten
-2026-03-09 07:25:24 UTC,212,DEACON CONSTRUCTION LLC,DEACON CONSTRUCTION,True,35196,"Deacon Construction, LLC; General Construction Management; Project Management and Coordination"
-2026-03-09 07:25:24 UTC,213,IOVINO ENTERPRISES,IOVINO ENTERPRISES,False,3683,"Arcari & Iovino Architects; Architectural Design and Engineering; iovino design group, LLC"
-2026-03-09 07:25:24 UTC,214,J.P. CULLEN AND SONS INC.,J.P. CULLEN AND SONS,True,2,"Janesville Division; Construction Services Division; Healthcare, Science, and Technology Division"
-2026-03-09 07:25:24 UTC,215,INDEPENDENCE CONSTRUCTION,INDEPENDENCE CONSTRUCTION,True,35234,Independence Construction; General Construction Management; Independence Construction LLC
-2026-03-09 07:25:24 UTC,216,BBL CONSTRUCTION SERVICES LLC,BBL CONSTRUCTION,True,35197,"BBL Construction Services, LLC; BBL Carlton, LLC - Albany; BBL Carlton, LLC - West Virginia"
-2026-03-09 07:25:24 UTC,217,COMMODORE BUILDERS,COMMODORE,True,3,Commodore; Concrete; Masonry
-2026-03-09 07:25:24 UTC,218,MW BUILDERS,MW BUILDERS,True,4265,MW Builders; Structural Steel; Project Management and Coordination
-2026-03-09 07:25:24 UTC,219,RIDGEMONT COMMERCIAL CO.,RIDGEMONT COMMERCIAL,False,9552,Central Homes Roofing and Solar; Roofing; Commercial
-2026-03-09 07:25:24 UTC,220,WALSH CONSTRUCTION CO.,WALSH CONSTRUCTION,True,35262,Walsh; Concrete; Communications
-2026-03-09 07:25:24 UTC,221,VECELLIO GROUP INC.,VECELLIO GROUP,False,9583,"Sharpe Brothers, a Division of Vecellio and Grogan; Concrete; Hal Jones Contractor-A Division of Vecellio & Grogan, Inc."
-2026-03-09 07:25:24 UTC,222,MILENDER WHITE,MILENDER WHITE,False,1203,White Cap; Concrete; Earthwork
-2026-03-09 07:25:24 UTC,223,LEMOINE,LEMOINE,True,41,The Lemoine Company; Project Management and Coordination; Lemoine Program Services
-2026-03-09 07:25:24 UTC,224,PARSONS CORP.,PARSONS,True,421,Parsons; Design and Engineering; Environmental Assessment
-2026-03-09 07:25:24 UTC,225,CHINA CONSTR. AMERICA/PLAZA CONSTR.,CHINA CONSTRUCTION AMERICA,False,32176,China state construction and engineering; Concrete; Demolition
-2026-03-09 07:25:24 UTC,226,PIKE CONSTRUCTION SERVICES INC.,PIKE CONSTRUCTION,True,35215,Pike Construction Inc.; Veteran Business Enterprise; Project Management and Coordination
-2026-03-09 07:25:24 UTC,227,THE MIDDLESEX CORP.,MIDDLESEX,True,29,Middlesex Glass; Rough Carpentry; Middlesex School
-2026-03-09 07:25:24 UTC,228,KAUFMAN LYNN CONSTRUCTION,KAUFMAN LYNN CONSTRUCTION,True,35234,Kaufman Lynn; Design and Engineering; Kaufman Dolowich
-2026-03-09 07:25:24 UTC,229,RAND CONSTRUCTION CORP.,RAND CONSTRUCTION,True,35229,Rand Construction; Communications; Concrete
-2026-03-09 07:25:24 UTC,230,PENNTEX CONSTRUCTION,PENNTEX CONSTRUCTION,False,35194,"PennTex Ventures, LLC; Communications; Concrete"
-2026-03-09 07:25:24 UTC,231,BOH BROS. CONSTRUCTION CO. LLC,BOH BROS. CONSTRUCTION,True,35446,"Boh Bros. Construction Co., L.L.C.; Boh Bros. Construction Co., L.L.C ( Headquarters-New Orleans); Broadmoor LLC and Legacy Professional Services LLC, a Joint Venture"
-2026-03-09 07:25:24 UTC,232,HOLT CONSTRUCTION,HOLT CONSTRUCTION,True,35227,Holt; Design and Engineering; Holt Construction Company
-2026-03-09 07:25:24 UTC,233,EDIFICE INC.,EDIFICE,True,14,Edifice Expert; Building Information Modeling Bim; Edifice Construction
-2026-03-09 07:25:24 UTC,234,R&O CONSTRUCTION,R&O CONSTRUCTION,False,1347,R & R FABRICATION; Small Business; Facility Maintenance and Operation Equipment
-2026-03-09 07:25:24 UTC,235,ELECTRICAL CONSULTANTS INC.,ELECTRICAL CONSULTANTS,True,7541,Electrical Consultants Inc; Electrical; Electrical Design and Engineering
-2026-03-09 07:25:24 UTC,236,W. M. JORDAN CO.,W. M. JORDAN,False,2430,Disadvantaged Business; Minority Business Enterprise; Union Member
-2026-03-09 07:25:24 UTC,237,BERNARDS,BERNARDS,True,86,Bernards; Design and Engineering; Heating Ventilating and Air Conditioning HVAC
-2026-03-09 07:25:24 UTC,238,ARISTEO CONSTRUCTION CO.,ARISTEO CONSTRUCTION,False,35193,Aristeo Garcia Construction LLC.; Concrete; Demolition
-2026-03-09 07:25:24 UTC,239,NEW SOUTH CONSTRUCTION CO.,NEW SOUTH CONSTRUCTION,True,38471,New South Construction; Design and Engineering; Colony Hardware
-2026-03-09 07:25:24 UTC,240,EMJ CONSTRUCTION,EMJ CONSTRUCTION,True,35199,EMJ Construction ionc; EMJ Construction inc; Project Management and Coordination
-2026-03-09 07:25:24 UTC,241,GRANGER CONSTRUCTION CO.,GRANGER CONSTRUCTION,True,35201,Granger Construction Co. HQ; Columbus; Grand Rapids
-2026-03-09 07:25:24 UTC,242,CHASSE BUILDING TEAM,CHASSE BUILDING TEAM,False,8642,Victory Building Team; Project Management and Coordination; Beseler Building Team
-2026-03-09 07:25:24 UTC,243,IDEAL CONTRACTING LLC,IDEAL CONTRACTING,True,7127,office; Ideal Contracting; Concrete
-2026-03-09 07:25:24 UTC,244,GRUNLEY CONSTRUCTION CO. INC.,GRUNLEY CONSTRUCTION,False,35194,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
-2026-03-09 07:25:24 UTC,245,ANDRES CONSTRUCTION SERVICES LLC,ANDRES CONSTRUCTION,True,35199,Andres Construction; Project Management and Coordination; Andres Contracting LLC
-2026-03-09 07:25:24 UTC,246,NAN INC.,NAN INC,True,114599,Nan Inc.; Concrete; Earthwork
-2026-03-09 07:25:24 UTC,247,BRANCH GROUP,BRANCH GROUP,True,9754,Branch Groupe; Design and Engineering; Earthwork
-2026-03-09 07:25:24 UTC,248,IMC CONSTRUCTION,IMC CONSTRUCTION,True,35204,IMC; Concrete; Electrical
-2026-03-09 07:25:24 UTC,249,CARROLL DANIEL CONSTRUCTION CO.,CARROLL DANIEL CONSTRUCTION,True,35374,Carroll Daniel Construction Company; Carroll Daniel Construction Company - Atlanta; Carroll Daniel Construction Company - Greenville
-2026-03-09 07:25:24 UTC,250,ENTACT,ENTACT,True,817,ENTACT; Construction Waste Management and Disposal; ENTACT LLC
-2026-03-09 07:25:24 UTC,251,CSI CONSTRUCTION CO.,CSI CONSTRUCTION,True,35249,CSI Construction; General Construction Management; Project Management and Coordination
-2026-03-09 07:25:24 UTC,252,HARKINS BUILDERS,HARKINS,True,1228,Harkins inc; Timber Framed Entrances and Storefronts; Hawkins
-2026-03-09 07:25:24 UTC,253,O&G INDUSTRIES INC.,O&G INDUSTRIES,False,181,Oriental Painting Intl. Inc.; Painting and Coatings; O Painting
-2026-03-09 07:25:24 UTC,254,J. FLETCHER CREAMER & SON INC.,J. FLETCHER CREAMER,False,3095,
-2026-03-09 07:25:24 UTC,255,CONTEGRA CONSTRUCTION CO.,CONTEGRA CONSTRUCTION,False,35193,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
-2026-03-09 07:25:24 UTC,256,ALLIED POWER,ALLIED POWER,False,2569,Allied Glass; Project Management and Coordination; Allied Concrete
-2026-03-09 07:25:24 UTC,257,CROWDER CONSTRUCTORS INC.,CROWDER CONSTRUCTORS,False,5588,Crowder Construction; Concrete; Earthwork
-2026-03-09 07:25:24 UTC,258,SECURITY PAVING CO. INC.,SECURITY PAVING,False,8056,"Pavion Corporation; Electronic Security; Enterprise Security Solutions, a Pavion Company"
-2026-03-09 07:25:24 UTC,259,MWH,MWH,True,263,MWH Constructors; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,260,THE KORTE CO.,KORTE,False,62,Forte; Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,261,JUNEAU CONSTRUCTION CO.,JUNEAU CONSTRUCTION,True,35199,Juneau Construction Company; General Construction Management; Juneau Odenwald Inc
-2026-03-09 07:25:24 UTC,262,PC CONSTRUCTION CO.,PC CONSTRUCTION,False,35564,Pc Posada construction; Concrete; Concrete Finishing
-2026-03-09 07:25:24 UTC,263,URBAN ATELIER GROUP,URBAN ATELIER,True,391,Urban Atelier Group; Project Management and Coordination; V3 Atelier
-2026-03-09 07:25:24 UTC,264,WIELAND,WIELAND,True,699,Corporate Office; Florida Office; Louisiana Office
-2026-03-09 07:25:24 UTC,265,BULLEY & ANDREWS,BULLEY & ANDREWS,True,2735,Bulley & Andrews; Concrete; Masonry
-2026-03-09 07:25:24 UTC,266,DICK ANDERSON CONSTRUCTION INC.,DICK ANDERSON CONSTRUCTION,True,35545,Billings Office; Bozeman Office; Chanen Construction Main Office
-2026-03-09 07:25:24 UTC,267,LYLES CONSTRUCTION GROUP,LYLES CONSTRUCTION,False,35201,Perfect Cleaning ;  Nicole Lyles; Cleaning and Maintenance Of Existing Period Conditions
-2026-03-09 07:25:24 UTC,268,SHIEL SEXTON CO. INC.,SHIEL SEXTON,False,811,sexton industrial; Project Management and Coordination; Shonna Sexton Studio
-2026-03-09 07:25:24 UTC,269,ROCKFORD CONSTRUCTION CO.,ROCKFORD CONSTRUCTION,True,35217,Rockford Construction; General Construction Management; McCoy Rockford
-2026-03-09 07:25:24 UTC,270,SUKUT CONSTRUCTION LLC,SUKUT CONSTRUCTION,True,35194,Sukut Construction LLC; Concrete; Demolition
-2026-03-09 07:25:24 UTC,271,NEXAMP,NEXAMP,True,34,Nexamp; Electrical; Project Management and Coordination
-2026-03-09 07:25:24 UTC,272,WOHLSEN CONSTRUCTION CO.,WOHLSEN CONSTRUCTION,True,35194,Wohlsen Construction Company Corporate; Connecticut; Greater Philadelphia
-2026-03-09 07:25:24 UTC,273,FAGEN INC.,FAGEN,False,36,michael fagan; Acoustic Ceilings; Architectural Wood Casework
-2026-03-09 07:25:24 UTC,274,CURRENT BUILDERS,CURRENT BUILDERS,False,4430,Current Electric; Electrical; Current Solutions
-2026-03-09 07:25:24 UTC,275,HASELDEN CONSTRUCTION,HASELDEN CONSTRUCTION,False,35194,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
-2026-03-09 07:25:24 UTC,276,CDM SMITH,CDM SMITH,True,755,CDM Smith; Project Management and Coordination; Design and Engineering
-2026-03-09 07:25:24 UTC,277,SEMA CONSTRUCTION INC.,SEMA CONSTRUCTION,True,35198,sema; Concrete; Sema Construction
-2026-03-09 07:25:24 UTC,278,RUSSELL GROUP INC.,RUSSELL GROUP,False,9709,"office; Russell & Russell Construction, LLC; Ceilings"
-2026-03-09 07:25:24 UTC,279,CAHILL CONTRACTORS,CAHILL CONTRACTORS,True,11384,Cahill Contractors; Project Management and Coordination; Cahill Contractors 
-2026-03-09 07:25:24 UTC,280,DRYMALLA CONSTRUCTION CO.,DRYMALLA CONSTRUCTION,True,35194,Drymalla Construction; Project Management and Coordination; HTF CONSTRUCTION CONSTRUCTION
-2026-03-09 07:25:24 UTC,281,FRANK L. BLUM CONSTRUCTION CO.,FRANK L. BLUM CONSTRUCTION,True,36108,Frank L Blum Construction; Project Management and Coordination; R L Blum Construction
-2026-03-09 07:25:24 UTC,282,CAJUN INDUSTRIES HOLDINGS LLC,CAJUN INDUSTRIES,True,5559,Cajun Industries; Concrete; Razzoo's Cajun Cafe
-2026-03-09 07:25:24 UTC,283,DANIS,DANIS,True,494,"Danis; Project Management and Coordination; Davis & Davis Interior Design Co., LLC"
-2026-03-09 07:25:24 UTC,284,NIBBI BROS. ASSOCIATES INC.,NIBBI BROS. ASSOCIATES,False,5168,Roth Bros; Heating Ventilating and Air Conditioning HVAC; Ventresca Bros
-2026-03-09 07:25:24 UTC,285,DEANGELIS DIAMOND CONSTRUCTION,DEANGELIS DIAMOND CONSTRUCTION,False,35580,DeAngelis Iron Works; Design and Engineering; Structural Steel
-2026-03-09 07:25:24 UTC,286,TRITON CONSTRUCTION CO. LLC,TRITON CONSTRUCTION,True,35252,Triton Construction Group; General Construction Management; Triton solutions
-2026-03-09 07:25:24 UTC,287,SKENDER,SKENDER,True,173,"Skender; Project Management and Coordination; Sender Electric, LLC"
-2026-03-09 07:25:24 UTC,288,RODGERS BUILDERS,RODGERS BUILDERS,True,4250,Rodgers Builders; Countertops; Demolition
-2026-03-09 07:25:24 UTC,289,LYDIG CONSTRUCTION,LYDIG CONSTRUCTION,True,35194,Lydig Construction; Project Management and Coordination; HTF CONSTRUCTION CONSTRUCTION
-2026-03-09 07:25:24 UTC,290,FRANA COS. INC.,FRANA COMPANIES,True,1523,Frana Companies; Finish Carpentry; Rough Carpentry
-2026-03-09 07:25:24 UTC,291,PERNIX GROUP INC.,PERNIX GROUP,False,9581,TEMP; GROUP; Architectural Design and Engineering
-2026-03-09 07:25:24 UTC,292,SHELCO LLC,SHELCO,True,468,Shelco; Project Management and Coordination; Shelco Construction
-2026-03-09 07:25:24 UTC,293,SNYDER LANGSTON,SNYDER LANGSTON,False,119,"office; Snyder Roofing of Washington, LLC; Ceilings"
-2026-03-09 07:25:24 UTC,294,MANSON CONSTRUCTION CO.,MANSON CONSTRUCTION,True,35195,Manson Construction; Rough Carpentry; Manson Construction Co.
-2026-03-09 07:25:24 UTC,295,C. OVERAA & CO.,C. OVERAA & CO,True,4025,Overaa Construction; C. Overaa & Co; Concrete
-2026-03-09 07:25:24 UTC,296,INTECH CONSTRUCTION,INTECH CONSTRUCTION,False,35199,"Intech Fire Protection, Inc.; Electrical; HTF CONSTRUCTION CONSTRUCTION"
-2026-03-09 07:25:24 UTC,297,S. T. WOOTEN CORP.,S. T. WOOTEN,False,2247,S and T; Communications; T S I Plumbing
-2026-03-09 07:25:24 UTC,298,KRAEMER NORTH AMERICA LLC,KRAEMER NORTH AMERICA,False,4498,"North American Civil; North American Civil Works, LLC; 3d Capture Scanning"
-2026-03-09 07:25:24 UTC,299,HARPER CONSTRUCTION CO. INC.,HARPER CONSTRUCTION,False,35234,gary harper construction; Access Flooring; Rulon Harper Construction DBA Harper Precast
-2026-03-09 07:25:24 UTC,300,BOWEN ENGINEERING CORP.,BOWEN ENGINEERING,True,7098,Bowen Engineering; Concrete; Earthwork
-2026-03-09 07:25:24 UTC,301,COLUMBIA,COLUMBIA,True,369,Columbia; Bim and Model Making Services; General Construction Management
-2026-03-09 07:25:24 UTC,302,HARPER GENERAL CONTRACTORS,HARPER GENERAL,True,5254,Harper General Contractor; Plumbing; Harper Electric
-2026-03-09 07:25:24 UTC,303,JPI,JPI,False,552,JCI; Fire Suppression; WPI
-2026-03-09 07:25:24 UTC,304,MARCH ASSOCIATES CONSTRUCTION INC.,MARCH ASSOCIATES CONSTRUCTION,False,38133,office; March Adams; Design and Engineering
-2026-03-09 07:25:24 UTC,305,Q&D CONSTRUCTION,Q&D CONSTRUCTION,False,43,Q electric; Small Business; Electrical
-2026-03-09 07:25:24 UTC,306,CLARK CONSTRUCTION CO.,CLARK CONSTRUCTION,True,35387,Clark Construction; Concrete; Project Management and Coordination
-2026-03-09 07:25:24 UTC,307,HAWKINS CONSTRUCTION CO.,HAWKINS CONSTRUCTION,True,35235,Hawkins Construction Inc.; Concrete; Demolition
-2026-03-09 07:25:24 UTC,308,EXXEL PACIFIC INC.,EXXEL PACIFIC,False,1296,"Exxel Engineering, Inc.; Design and Engineering; Pacific Supply"
-2026-03-09 07:25:24 UTC,309,THE BETTE COS.,BETTE,False,398,Bouma Betten; Ceilings; Countertops
-2026-03-09 07:25:24 UTC,310,POETTKER CONSTRUCTION CO.,POETTKER CONSTRUCTION,False,35194,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
-2026-03-09 07:25:24 UTC,311,SCHIMENTI CONSTRUCTION CO.,SCHIMENTI CONSTRUCTION,False,35194,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
-2026-03-09 07:25:24 UTC,312,R.D. OLSON CONSTRUCTION,R.D. OLSON CONSTRUCTION,False,37317,R Olson; Concrete; David R Olson
-2026-03-09 07:25:24 UTC,313,PIONEER GENERAL CONTRACTORS INC.,PIONEER GENERAL,True,5377,Pioneer General Contractors; Plumbing; Project Management and Coordination
-2026-03-09 07:25:24 UTC,314,HUNZINGER CONSTRUCTION CO.,HUNZINGER CONSTRUCTION,True,35195,Hunzinger Construction Company; Bim and Model Making Services; General Construction Management
-2026-03-09 07:25:24 UTC,315,JIM COOPER CONSTRUCTION CO. INC.,JIM COOPER CONSTRUCTION,False,35432,Cooper Construction; Project Management and Coordination; Jim
-2026-03-09 07:25:24 UTC,316,M. B. KAHN CONSTRUCTION CO. INC.,M. B. KAHN CONSTRUCTION,True,37154,M B Kahn; Project Management and Coordination; office
-2026-03-09 07:25:24 UTC,317,BRADBURY STAMM CONSTRUCTION INC.,BRADBURY STAMM CONSTRUCTION,True,35198,Bradbury Stamm Construction; General Construction Management; HTF CONSTRUCTION CONSTRUCTION
-2026-03-09 07:25:24 UTC,318,SHOOK CONSTRUCTION,SHOOK CONSTRUCTION,True,35205,Shook Construction; Concrete; Earthwork
-2026-03-09 07:25:24 UTC,319,MILLER VALENTINE CONSTRUCTION,MILLER VALENTINE CONSTRUCTION,True,35636,Miller Valentine; Demolition; Rough Carpentry
-2026-03-09 07:25:24 UTC,320,PLANT CONSTRUCTION CO. LP,PLANT CONSTRUCTION,False,35349,office; Plant Pros; Landscaping
-2026-03-09 07:25:24 UTC,321,CR MEYER,CR MEYER,True,319,CR Meyer; Concrete; Demolition
-2026-03-09 07:25:24 UTC,322,DOSTER CONSTRUCTION CO.,DOSTER CONSTRUCTION,True,35195,Doster Construction; General Construction Management; Project Management and Coordination
-2026-03-09 07:25:24 UTC,323,THE HAGERMAN GROUP,HAGERMAN GROUP,True,9584,Hagerman Group; Concrete; Masonry
-2026-03-09 07:25:24 UTC,324,GARDNER BUILDERS,GARDNER BUILDERS,False,4285,Gardner Company; General Construction Management; Project Management and Coordination
-2026-03-09 07:25:24 UTC,325,HILL & WILKINSON GENERAL CONTRACTORS,HILL & WILKINSON GENERAL,False,2010,McClure Hill; Electrical; Hill International
-2026-03-09 07:25:24 UTC,326,HOURIGAN,HOURIGAN,True,28,Hourigan; Project Management and Coordination; Hourigan Construction
-2026-03-09 07:25:24 UTC,327,DONOHOE CONSTRUCTION CO.,DONOHOE CONSTRUCTION,True,35197,Donohoe Construction; Project Management and Coordination; Donohoe
-2026-03-09 07:25:24 UTC,328,ABSHER CONSTRUCTION CO.,ABSHER CONSTRUCTION,True,35194,"Absher Construction Co.; Absher-Stellar J Joint Venture; Front & Market, LLC"
-2026-03-09 07:25:24 UTC,329,RIVER CITY CONSTRUCTION LLC,RIVER CITY CONSTRUCTION,True,37848,River City Construction Group; Interior Specialties; River City Builders
-2026-03-09 07:25:24 UTC,330,LEOPARDO COS.,LEOPARDO COMPANIES,True,1524,"Leopardo Companies, Inc; Finish Carpentry; General Construction Management"
-2026-03-09 07:25:24 UTC,331,T N WARD CO.,T N WARD,True,1902,T N Ward Company; Concrete; Demolition
-2026-03-09 07:25:24 UTC,332,DENHAM-BLYTHE CO.,DENHAM-BLYTHE,True,1,Lexington; Louisville; Nashville
-2026-03-09 07:25:24 UTC,333,KBE BUILDING CORP.,KBE BUILDING,True,5944,KBE Building Corporation; General Construction Management; KBE Design Build
-2026-03-09 07:25:24 UTC,334,MARKET & JOHNSON INC.,MARKET & JOHNSON,False,3280,Taibah Market; Acoustic Ceilings; Jones Flooring Center
-2026-03-09 07:25:24 UTC,335,EXECUTIVE CONSTRUCTION INC.,EXECUTIVE CONSTRUCTION,False,35286,Executive Landscaping; Earthwork; Landscaping
-2026-03-09 07:25:24 UTC,336,ALBERT C. KOBAYASHI INC.,ALBERT C. KOBAYASHI,False,1415,Albert Architecture; Albert Lee; Design and Engineering
-2026-03-09 07:25:24 UTC,337,FORTUNE-JOHNSON LLC,FORTUNE-JOHNSON,True,1,Atlanta - FJLLC; Charlotte - FJLLC; Richmond - FJLLC
-2026-03-09 07:25:24 UTC,338,KLINGER COS. LLC,KLINGER,False,205,office; Klinger Masonry Inc.; Masonry
-2026-03-09 07:25:24 UTC,339,KBS INC.,KBS,True,570,office; KBS; Abatement and Remediation
-2026-03-09 07:25:24 UTC,340,PRIMUS BUILDERS INC.,PRIMUS BUILDERS,False,4221,Primus Surfaces; Countertops; Terrazzo Flooring
-2026-03-09 07:25:24 UTC,341,GH PHIPPS CONSTRUCTION COS.,GH PHIPPS CONSTRUCTION,True,35224,office; GH Phipps; Bim and Model Making Services
-2026-03-09 07:25:24 UTC,342,TERMINAL CONSTRUCTION CORP.,TERMINAL CONSTRUCTION,True,35209,Terminal Construction; General Construction Management; Terminal Construction Corp.
-2026-03-09 07:25:24 UTC,343,WESPAC CONSTRUCTION,WESPAC CONSTRUCTION,False,35196,WESPAC Electrical Contractors Ltd.; Electrical; HTF CONSTRUCTION CONSTRUCTION
-2026-03-09 07:25:24 UTC,344,PERLO CONSTRUCTION,PERLO CONSTRUCTION,False,35194,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
-2026-03-09 07:25:24 UTC,345,NEI GENERAL CONTRACTING,NEI GENERAL CONTRACTING,False,9612,J2 Contracting; Demolition; General
-2026-03-09 07:25:24 UTC,346,LEE KENNEDY CO.,LEE KENNEDY,False,467,Kennedy Jenks; Project Management and Coordination; Kennedy Glass Partners LLC
-2026-03-09 07:25:24 UTC,347,BERGLUND CONSTRUCTION CO.,BERGLUND CONSTRUCTION,True,35196,Berglund Construction; Communications; Concrete
-2026-03-09 07:25:24 UTC,348,BUCH CONSTRUCTION,BUCH CONSTRUCTION,True,35195,Carolina; Florida Office; Georgia Office
-2026-03-09 07:25:24 UTC,349,THOMPSON TURNER CONSTRUCTION,THOMPSON TURNER CONSTRUCTION,True,35566,Thompson Turner; Communications; Turner Construction 
-2026-03-09 07:25:24 UTC,350,BLACH CONSTRUCTION,BLACH CONSTRUCTION,True,35194,Blach Construction; General Construction Management; HTF CONSTRUCTION CONSTRUCTION
-2026-03-09 07:25:24 UTC,351,ROGER B. KENNEDY CONSTRUCTION,ROGER B. KENNEDY CONSTRUCTION,False,36239,Roger; Electrical; Roger Langeliers Construction
-2026-03-09 07:25:24 UTC,352,MOWERY,MOWERY,False,3090,Mowers concret; Concrete; Mowers concrete
-2026-03-09 07:25:24 UTC,353,D.F. CHASE INC.,D.F. CHASE,False,2026,office; F D Pierce Co; Heating Ventilating and Air Conditioning HVAC
-2026-03-09 07:25:24 UTC,354,HAYDON BUILDING CORP.,HAYDON BUILDING,False,5947,Haydon Materials; Earthwork; Prevailing Wage
-2026-03-09 07:25:24 UTC,355,LANDSOUTH CONSTRUCTION,LANDSOUTH CONSTRUCTION,True,35194,"LandSouth Construction LLC; LandSouth Construction, LLC; HTF CONSTRUCTION CONSTRUCTION"
-2026-03-09 07:25:24 UTC,356,PENCE CONTRACTORS,PENCE CONTRACTORS,False,11377,J.H. Pence Co; Project Management and Coordination; Pence Countertops Inc.
-2026-03-09 07:25:24 UTC,357,BALDWIN & SHELL CONSTRUCTION CO.,BALDWIN & SHELL CONSTRUCTION,False,71,Baldwin Blinds; Window Treatments; office
-2026-03-09 07:25:24 UTC,358,MATT CONSTRUCTION,MATT CONSTRUCTION,False,35221,Matt; Landscaping; Project Management and Coordination
-2026-03-09 07:25:24 UTC,359,WILLIAM A RANDOLPH INC.,WILLIAM A RANDOLPH,True,227,"William A. Randolph, Inc.; Project Management and Coordination; Randolph Electrical"
-2026-03-09 07:25:24 UTC,360,CF EVANS CONSTRUCTION,CF EVANS CONSTRUCTION,False,35333,CF Construction Services; Concrete; Concrete Countertops
-2026-03-09 07:25:24 UTC,361,ROEBBELEN CONTRACTING INC.,ROEBBELEN CONTRACTING,False,6895,ICI Contracting; Architectural Design and Engineering; Fixture Contracting
-2026-03-09 07:25:24 UTC,362,CCC GROUP INC.,CCC GROUP,True,9597,CCC Group; Concrete; Electrical
-2026-03-09 07:25:24 UTC,363,SEVENSON ENVIRONMENTAL,SEVENSON ENVIRONMENTAL,False,2976,Sevenson; Earthwork; Precept Environmental
-2026-03-09 07:25:24 UTC,364,CHARLES PERRY PARTNERS INC.,CHARLES PERRY PARTNERS,True,2867,"Charles Perry Partners, Inc.; General Construction Management; Project Management and Coordination"
-2026-03-09 07:25:24 UTC,365,RABREN GENERAL CONTRACTORS,RABREN GENERAL,True,5208,RGC Main Office; RGC Birmingham Office; Rabren General Contractors
-2026-03-09 07:25:24 UTC,366,WORLEY,WORLEY,True,1155,Worley; Structural Steel; Design and Engineering
-2026-03-09 07:25:24 UTC,367,MORLEY BUILDERS,MORLEY BUILDERS,False,4227,Morley; Project Management and Coordination; Morley Roofing
-2026-03-09 07:25:24 UTC,368,FONTAINE BROS. INC.,FONTAINE BROS,False,931,Fontaine Landscaping; Landscaping; Fontaine Construction
-2026-03-09 07:25:24 UTC,369,BARR & BARR INC.,BARR & BARR,True,440,Barr and Barr; Mechanical Design and Engineering; Project Management and Coordination
-2026-03-09 07:25:24 UTC,370,E.W. HOWELL CO. LLC,E.W. HOWELL,False,3550,W E Bowers; Commissioning; Disadvantaged Business
-2026-03-09 07:25:24 UTC,371,FORT MYER CONSTRUCTION CORP.,FORT MYER CONSTRUCTION,False,35465,office; O'MAHONY & MYER; Design and Engineering
-2026-03-09 07:25:24 UTC,372,RONCELLI INC.,RONCELLI,True,11,Roncelli; General Construction Management; Riccelli Enterprises
-2026-03-09 07:25:24 UTC,373,GARCO CONSTRUCTION,GARCO CONSTRUCTION,False,35197,Garco Investments; Demolition; Masonry
-2026-03-09 07:25:24 UTC,374,CLARK CONTRACTORS,CLARK CONTRACTORS,False,11598,"Clark Construction Contractor, LLC.; Ceilings; Concrete"
-2026-03-09 07:25:24 UTC,375,BRYAN CONSTRUCTION INC.,BRYAN CONSTRUCTION,True,35247,Bryan Construction Inc.; Rough Carpentry; office
-2026-03-09 07:25:24 UTC,376,BH INC.,BH INC,False,114613,BH Estimating; Wood Countertops; Wood Wall Panels
-2026-03-09 07:25:24 UTC,377,J.F. BRENNAN CO. INC.,J.F. BRENNAN,False,2203,office; Thomas J Brennan Architects; Bim and Model Making Services
-2026-03-09 07:25:24 UTC,378,BURKE CONSTRUCTION GROUP INC.,BURKE CONSTRUCTION,True,35260,Burke Mechanical; Concrete; Demolition
-2026-03-09 07:25:24 UTC,379,AHTNA NETIFYE LLC,AHTNA NETIFYE,False,4,"Ahtna; Project Management and Coordination; Ahtna Global, LLC"
-2026-03-09 07:25:24 UTC,380,S. M. WILSON & CO.,S. M. WILSON,False,3611,M S Concrete; Concrete; M S International
-2026-03-09 07:25:24 UTC,381,BELL & ASSOCIATES CONSTRUCTION LLC,BELL & ASSOCIATES CONSTRUCTION,False,2324,"Bell; General Construction Management; BELL BCI CO., LLC"
-2026-03-09 07:25:24 UTC,382,BYRNE CONSTRUCTION SERVICES,BYRNE CONSTRUCTION,True,35205,Byrne Construction Services; Project Management and Coordination; Byrne Construction
-2026-03-09 07:25:24 UTC,383,BUTZ ENTERPRISES INC.,BUTZ ENTERPRISES,False,3682,Miller Enterprise Group/Houston Miller Enterprises; Concrete; Demolition
-2026-03-09 07:25:24 UTC,384,W.G. CLARK CONSTRUCTION CO.,W.G. CLARK CONSTRUCTION,False,36450,William W Clark; Earthwork; W W Clark Excavating
-2026-03-09 07:25:24 UTC,385,PARRISH CONSTRUCTION GROUP INC.,PARRISH CONSTRUCTION,True,35215,Parrish Construction; Communications; Parrish Excavating
-2026-03-09 07:25:24 UTC,386,COAKLEY & WILLIAMS CONSTRUCTION,COAKLEY & WILLIAMS CONSTRUCTION,False,101,Coakley Brothers; Structure and Building Moving Relocation; Coakley Plumbing
-2026-03-09 07:25:24 UTC,387,KEY CONSTRUCTION INC.,KEY CONSTRUCTION,True,35513,Key Construction Inc.; Project Management and Coordination; Top Key Construction
-2026-03-09 07:25:24 UTC,388,DESCOR BUILDERS,DESCOR BUILDERS,False,4215,Builders; Rough Carpentry; 2B Builders
-2026-03-09 07:25:24 UTC,389,GHILOTTI CONSTRUCTION CO.,GHILOTTI CONSTRUCTION,False,35199,"Team Ghilotti; Earthwork; Ghilotti Bros., Inc."
-2026-03-09 07:25:24 UTC,390,BUFFALO CONSTRUCTION,BUFFALO CONSTRUCTION,False,35268,office; Buffalo; Communications
-2026-03-09 07:25:24 UTC,391,BROWN CONSTRUCTION INC.,BROWN CONSTRUCTION,True,35512,Brown and Brown Construction; Rough Carpentry; Brady Brown Construction
-2026-03-09 07:25:24 UTC,392,WILLIAMS INDUSTRIAL SERVICES GROUP INC.,WILLIAMS INDUSTRIAL SERVICES,False,30873,GENERAL WILLIAMS; Paving and Surfacing; GCW Pavement Services LLC
-2026-03-09 07:25:24 UTC,393,BARRY-WEHMILLER DESIGN GROUP,BARRY-WEHMILLER DESIGN,True,10798,Barry Wehmiller Design Group; Architectural Design and Engineering; Electrical
-2026-03-09 07:25:24 UTC,394,J.D. ECKMAN INC.,J.D. ECKMAN,False,2953,office; J D; Earthwork
-2026-03-09 07:25:24 UTC,395,WAGMAN INC.,WAGMAN CONSTRUCTION,True,35196,Wagman Construction; Ceilings; Concrete
-2026-03-09 07:25:24 UTC,396,A.R. MAYS CONSTRUCTION,A.R. MAYS CONSTRUCTION,False,36344,Grover Mays Construction; Structural Steel; Mays concrete
-2026-03-09 07:25:24 UTC,397,EAGLE BUILDING CO.,EAGLE BUILDING,True,6399,Eagle Building Company; General Construction Management; Small Business
-2026-03-09 07:25:24 UTC,398,KIELY FAMILY OF COS.,KIELY FAMILY,True,2422,Kiely Family of Companies; Concrete; Demolition
-2026-03-09 07:25:24 UTC,399,OMNIBUILD,OMNIBUILD,False,0,
-2026-03-09 07:25:24 UTC,400,P. AGNES,P. AGNES,False,500,Ages; Heating Ventilating and Air Conditioning HVAC; Charlie Agnew
+2026-03-10 07:11:47 UTC,1,THE TURNER CORP.,TURNER,False,1389,Turner Security; Electronic Security; Whiting Turner
+2026-03-10 07:11:47 UTC,2,BECHTEL,BECHTEL,True,50,Bechtel; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,3,MASTEC INC.,MASTEC,True,1803,Fasten Master; Design and Engineering; MasTec
+2026-03-10 07:11:47 UTC,4,KIEWIT CORP.,KIEWIT,True,57,Kiewit; Wall Specialties; Design and Engineering
+2026-03-10 07:11:47 UTC,5,STO BUILDING GROUP,STO BUILDING,False,5979,"STO Design Group, Inc.; Design and Engineering; Manning Building"
+2026-03-10 07:11:47 UTC,6,DPR CONSTRUCTION,DPR CONSTRUCTION,True,35322,DPR Construction; Ceilings; Concrete
+2026-03-10 07:11:47 UTC,7,THE WHITING-TURNER CONTRACTING CO.,WHITING-TURNER CONTRACTING,True,7094,Whiting Turner; Communications; Concrete
+2026-03-10 07:11:47 UTC,8,FLUOR,FLUOR,True,1427,Fluor; Project Management and Coordination; Bim and Model Making Services
+2026-03-10 07:11:47 UTC,9,CLARK GROUP,CLARK GROUP,True,9851,Clark Construcion Group; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,10,SKANSKA USA,SKANSKA USA,True,5364,Skanska USA; Communications; Project Management and Coordination
+2026-03-10 07:11:47 UTC,11,HENSEL PHELPS,HENSEL PHELPS,True,1385,Hensel Phelps; Construction Aides; Project Management and Coordination
+2026-03-10 07:11:47 UTC,12,GILBANE BUILDING CO.,GILBANE BUILDING,True,5988,Gilbane Building; General Construction Management; Gilbane Building Company
+2026-03-10 07:11:47 UTC,13,PCL CONSTRUCTION ENTERPRISES,PCL CONSTRUCTION,True,35332,PCL Construction; General Construction Management; Concrete
+2026-03-10 07:11:47 UTC,14,AECOM,AECOM,True,146,AECOM; Design and Engineering; Concrete
+2026-03-10 07:11:47 UTC,15,THE WALSH GROUP,WALSH GROUP,True,9687,Walsh Group; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,16,JE DUNN CONSTRUCTION GROUP,JE DUNN CONSTRUCTION,True,35406,JE Dunn Construction; Communications; Concrete
+2026-03-10 07:11:47 UTC,17,ARCO CONSTRUCTION COS.,ARCO CONSTRUCTION,True,35333,Arco Construction; Roofing; ARCO
+2026-03-10 07:11:47 UTC,18,HITT CONTRACTING INC.,HITT CONTRACTING,True,6914,HITT Contracting; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,19,MCCARTHY HOLDINGS INC.,MCCARTHY HOLDINGS,True,867,McCarthy Holdings Inc; Concrete; Project Management and Coordination
+2026-03-10 07:11:47 UTC,20,CLAYCO,CLAYCO,True,354,Clayco; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,21,BRASFIELD & GORRIE LLC,BRASFIELD & GORRIE,False,23,Brasfield Construction; Project Management and Coordination; Lindsay Pope Brayfield
+2026-03-10 07:11:47 UTC,22,MORTENSON,MORTENSON,True,44,Mortenson; Project Management and Coordination; Concrete
+2026-03-10 07:11:47 UTC,23,TUTOR PERINI CORP.,TUTOR PERINI,True,315,Tutor Perini; Project Management and Coordination; Tutor Perini Corporation
+2026-03-10 07:11:47 UTC,24,SUFFOLK CONSTRUCTION CO. INC.,SUFFOLK CONSTRUCTION,True,35350,Suffolk Construction; Project Management and Coordination; Design and Engineering
+2026-03-10 07:11:47 UTC,25,BARTON MALOW HOLDINGS LLC,BARTON MALOW,True,82,Barton Malow; Project Management and Coordination; Barton Malow Builders
+2026-03-10 07:11:47 UTC,26,BALFOUR BEATTY US,BALFOUR BEATTY US,True,3097,Balfour Beatty US; Construction Scheduling; Balfour Beatty Infrastructure US
+2026-03-10 07:11:47 UTC,27,HOLDER CONSTRUCTION,HOLDER CONSTRUCTION,True,35328,Holder Construction; Project Management and Coordination; Holder
+2026-03-10 07:11:47 UTC,28,RYAN COS. US INC.,RYAN COMPANIES,True,1682,Ryan Companies; Design and Engineering; General Construction Management
+2026-03-10 07:11:47 UTC,29,SWINERTON,SWINERTON,True,26,Swinerton; Project Management and Coordination; Airfield Construction
+2026-03-10 07:11:47 UTC,30,HOFFMAN CONSTRUCTION,HOFFMAN CONSTRUCTION,True,35388,office; Hoffman Construction; Concrete
+2026-03-10 07:11:47 UTC,31,BURNS & MCDONNELL,BURNS & MCDONNELL,False,156,John burns; Communications; Burns Engineering
+2026-03-10 07:11:47 UTC,32,MICHELS CORP.,MICHELS,True,639,Michels; Bored Piles; Michaels
+2026-03-10 07:11:47 UTC,33,ZACHRY GROUP,ZACHRY GROUP,True,9626,Zachry Group; Design and Engineering; Concrete
+2026-03-10 07:11:47 UTC,34,WALBRIDGE,WALBRIDGE,True,65,Walbridge; Concrete; Design and Engineering
+2026-03-10 07:11:47 UTC,35,DRAGADOS,DRAGADOS,True,10,Dragados; Concrete; Flatiron Dragados
+2026-03-10 07:11:47 UTC,36,GRANITE CONSTRUCTION INC.,GRANITE CONSTRUCTION,True,36254,Granite Construction; Concrete; Earthwork
+2026-03-10 07:11:47 UTC,37,GRAY CONSTRUCTION,GRAY CONSTRUCTION,False,35376,JL Gray Construction; Concrete; Earthwork
+2026-03-10 07:11:47 UTC,38,AUSTIN INDUSTRIES,AUSTIN INDUSTRIES,False,5973,Industrial Rigging Service of Austin; Structural Steel; Vortex Austin
+2026-03-10 07:11:47 UTC,39,ALBERICI-FLINTCO,ALBERICI-FLINTCO,False,0,
+2026-03-10 07:11:47 UTC,40,THE YATES COS. INC.,YATES CONSTRUCTION,True,35345,Yates Construction; Project Management and Coordination; Curbs and Gutters
+2026-03-10 07:11:47 UTC,41,CONSIGLI BUILDING GROUP INC.,CONSIGLI BUILDING,False,5978,Consigli; Project Management and Coordination; Consigli Construction
+2026-03-10 07:11:47 UTC,42,BLACK & VEATCH,BLACK & VEATCH,False,945,Morris Black; Design and Engineering; Black Forest
+2026-03-10 07:11:47 UTC,43,BIG-D CONSTRUCTION,BIG-D CONSTRUCTION,True,36837,Big D Construction; Project Management and Coordination; Pebcor Corporation
+2026-03-10 07:11:47 UTC,44,MOSS,MOSS,True,1452,office; Womenâs Business; Moms and Mops
+2026-03-10 07:11:47 UTC,45,TURNER INDUSTRIES GROUP LLC,TURNER INDUSTRIES,True,5761,Turner Industries Group; Concrete; Demolition
+2026-03-10 07:11:47 UTC,46,DEVCON CONSTRUCTION INC.,DEVCON CONSTRUCTION,False,35319,Devcon; Design and Engineering; DeVCon Distribution
+2026-03-10 07:11:47 UTC,47,FERROVIAL CONSTRUCTION US HOLDINGS CORP.,FERROVIAL CONSTRUCTION US,True,31468,Ferrovial Construction US; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,48,ALSTON CONSTRUCTION,ALSTON CONSTRUCTION,True,35318,Alston Construction; Project Management and Coordination; Communications
+2026-03-10 07:11:47 UTC,49,FLATIRON CONSTRUCTION,FLATIRON CONSTRUCTION,True,35330,Flatiron Construction; Concrete; Demolition
+2026-03-10 07:11:47 UTC,50,THE CONLAN COMPANY,CONLAN COMPANY,False,16997,ConlanPlastering LLC; Locally Based Business Enterprise; Conlan Plastering LLC
+2026-03-10 07:11:47 UTC,51,STERLING INFRASTRUCTURE INC.,STERLING INFRASTRUCTURE,False,876,Sterling Appliance; Equipment; Sterling Woodcraft
+2026-03-10 07:11:47 UTC,52,PEPPER CONSTRUCTION,PEPPER CONSTRUCTION,True,35321,Pepper Construction; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,53,LENDLEASE,LENDLEASE,True,5,Lendlease; Project Management and Coordination; Project Management
+2026-03-10 07:11:47 UTC,54,FCL BUILDERS LLC,FCL BUILDERS,True,4232,FCL Builders; Project Management and Coordination; FCL Builders Arizona LLC
+2026-03-10 07:11:47 UTC,55,FORTIS CONSTRUCTION INC.,FORTIS CONSTRUCTION,True,35339,Fortis; Communications; Concrete
+2026-03-10 07:11:47 UTC,56,EVANS GENERAL CONTRACTORS,EVANS GENERAL,True,5379,Evans General Contractors; Communications; Concrete
+2026-03-10 07:11:47 UTC,57,MIRON CONSTRUCTION CO. INC.,MIRON CONSTRUCTION,True,35316,Miron Construction; Bim and Model Making Services; Ceilings
+2026-03-10 07:11:47 UTC,58,HARVEY | HARVEY-CLEARY,HARVEY CLEARY,True,2372,Houston Office (Corporate Headquarters); Austin Office; DC Office
+2026-03-10 07:11:47 UTC,59,HASKELL,HASKELL,True,73,Haskell; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,60,THE KOKOSING GROUP OF COS.,KOKOSING,True,5,Kokosing Industrial; Concrete; Earthwork
+2026-03-10 07:11:47 UTC,61,ROBINS & MORTON,ROBINS & MORTON,True,383,robins and morton; Project Management and Coordination; Robins Handyman Group
+2026-03-10 07:11:47 UTC,62,SUNDT CONSTRUCTION INC.,SUNDT CONSTRUCTION,True,35317,Sundt Construction; General Construction Management; Transportation Construction and Equipment
+2026-03-10 07:11:47 UTC,63,CHOATE CONSTRUCTION CO.,CHOATE CONSTRUCTION,True,35323,Choate Construction Company; General Construction Management; Choate USA
+2026-03-10 07:11:47 UTC,64,CLUNE CONSTRUCTION,CLUNE CONSTRUCTION,True,35317,Clune Construction; Project Management and Coordination; Clune
+2026-03-10 07:11:47 UTC,65,AMES CONSTRUCTION INC.,AMES CONSTRUCTION,True,35327,Ames Construction; Earthwork; Electrical
+2026-03-10 07:11:47 UTC,66,J.T. MAGEN & CO. INC.,J.T. MAGEN,True,2427,JT Magen; Project Management and Coordination; T J Conway Company
+2026-03-10 07:11:47 UTC,67,E.E. REED CONSTRUCTION LP,E.E. REED CONSTRUCTION,False,36080,E ALL CONSTRUCTION; Cleaning Services; Final Cleaning
+2026-03-10 07:11:47 UTC,68,HUNTER ROBERTS CONSTRUCTION GROUP LLC,HUNTER ROBERTS CONSTRUCTION,True,35526,Hunter Roberts Construction Group; Project Management and Coordination; Roberts
+2026-03-10 07:11:47 UTC,69,CORE CONSTRUCTION GROUP,CORE CONSTRUCTION,True,35853,Core Construction; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,70,MANHATTAN CONSTRUCTION GROUP,MANHATTAN CONSTRUCTION,True,35376,Manhattan Construction; Project Management and Coordination; Communications
+2026-03-10 07:11:47 UTC,71,GARNEY HOLDING CO.,GARNEY,True,988,Garney; Concrete; Demolition
+2026-03-10 07:11:47 UTC,72,THE WEITZ CO. & AFFILIATES,WEITZ COMPANY,True,17003,The Weitz Company; General Construction Management; weitz
+2026-03-10 07:11:47 UTC,73,MESSER CONSTRUCTION CO.,MESSER CONSTRUCTION,True,35323,Messer Construction; Project Management and Coordination; Messer
+2026-03-10 07:11:47 UTC,74,F.A. WILHELM CONSTRUCTION,F.A. WILHELM CONSTRUCTION,True,35619,F.A. Wilhelm; Project Management and Coordination; Wilhelm Commercial Builders
+2026-03-10 07:11:47 UTC,75,POWER CONSTRUCTION CO. LLC,POWER CONSTRUCTION,True,36848,Power Construction; Project Management and Coordination; Power Engineering Construction
+2026-03-10 07:11:47 UTC,76,HATHAWAY DINWIDDIE CONSTRUCTION CO.,HATHAWAY DINWIDDIE CONSTRUCTION,True,35324,Hathaway Dinwiddie; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,77,THE BOLDT CO.,BOLDT,True,107,BOLDT; Concrete; Earthwork
+2026-03-10 07:11:47 UTC,78,OKLAND CONSTRUCTION,OKLAND CONSTRUCTION,True,35315,Okland Construction; Project Management and Coordination; Concrete
+2026-03-10 07:11:47 UTC,79,THE MCSHANE COS.,MCSHANE,True,49,McShane Construction; Project Management and Coordination; Cadence McShane
+2026-03-10 07:11:47 UTC,80,BRINKMANN CONSTRUCTORS,BRINKMANN,True,18,"St. Louis, MO; Denver, CO; Florida"
+2026-03-10 07:11:47 UTC,81,LANE INDUSTRIES INC.,LANE INDUSTRIES,False,5683,Lane Valente Industries; Electrical; Heating Ventilating and Air Conditioning HVAC
+2026-03-10 07:11:47 UTC,82,ADOLFSON & PETERSON CONSTRUCTION,ADOLFSON & PETERSON CONSTRUCTION,True,12,Adolfson & Peterson Constructions; Design and Engineering; General Construction Management
+2026-03-10 07:11:47 UTC,83,CONSTRUCTION PARTNERS,CONSTRUCTION PARTNERS,True,31206,Partners Construction; Project Management and Coordination; Industrialized Construction Partners
+2026-03-10 07:11:47 UTC,84,SAMET CORP.,SAMET,True,346,Samet corp; Project Management and Coordination; Blue Line Painting
+2026-03-10 07:11:47 UTC,85,THE CHRISTMAN CO.,CHRISTMAN,True,124,Christman; Concrete; Demolition
+2026-03-10 07:11:47 UTC,86,SUMMIT CONTRACTING GROUP INC.,SUMMIT CONTRACTING,True,7291,Summit contracting; Concrete; Structure and Building Moving Relocation
+2026-03-10 07:11:47 UTC,87,ALLAN MYERS,ALLAN MYERS,True,232,allan myers; Earthwork; Plumbing
+2026-03-10 07:11:47 UTC,88,OHLA USA INC.,OHLA USA,True,5348,OHLA USA; Project Management and Coordination; OHLA U.S.A
+2026-03-10 07:11:47 UTC,89,SHAWMUT DESIGN AND CONSTRUCTION,SHAWMUT DESIGN AND CONSTRUCTION,True,1238,Shawmut Design & Construction; Project Management and Coordination; shawmut design and construction
+2026-03-10 07:11:47 UTC,90,DAY & ZIMMERMANN,DAY & ZIMMERMANN,False,2775,Dan Fay Plumbing; Small Business; Plumbing
+2026-03-10 07:11:47 UTC,91,CROSSLAND CONSTRUCTION CO. INC.,CROSSLAND CONSTRUCTION,False,35323,CROSSLAND; Plumbing; Crossland Holdings
+2026-03-10 07:11:47 UTC,92,S&B ENGINEERS AND CONSTRUCTORS,S&B ENGINEERS,False,1216,office; S C S Concrete; Concrete
+2026-03-10 07:11:47 UTC,93,BNBUILDERS,BNBUILDERS,True,2789,BNBuilders; Ceilings; Concrete
+2026-03-10 07:11:47 UTC,94,PJ DICK - TRUMBULL - LINDY GROUP,PJ DICK,True,783,PJ Dick; Project Management and Coordination; PJ kennedy
+2026-03-10 07:11:47 UTC,96,THE CIANBRO COS.,CIANBRO,True,9,"Cianbro Corporation; Cianbro Equipment, LLC; Cianbro Fabrication & Coating"
+2026-03-10 07:11:47 UTC,97,SOUTHLAND HOLDINGS,SOUTHLAND,True,160,"Southland Industries; The Brandt Companies, LLC; Southland"
+2026-03-10 07:11:47 UTC,98,BL HARBERT INTERNATIONAL,BL HARBERT INTERNATIONAL,True,1271,BL Harbert International; Concrete; B.L. Harbert International
+2026-03-10 07:11:47 UTC,99,TEICHERT CONSTRUCTION,TEICHERT CONSTRUCTION,False,35317,"A. Teichert & Son, Inc. dba Teichert Construction; Earthwork; Teichert Energy and Utilities"
+2026-03-10 07:11:47 UTC,100,LEVEL 10 CONSTRUCTION,LEVEL 10 CONSTRUCTION,False,35730,Next level Construction; Ceilings; Concrete
+2026-03-10 07:11:47 UTC,101,CBRE,CBRE,True,1998,CBRE; Project Management and Coordination; Architectural Design and Engineering
+2026-03-10 07:11:47 UTC,102,NABHOLZ,NABHOLZ,True,14,Nabholz; Project Management and Coordination; Design and Engineering
+2026-03-10 07:11:47 UTC,103,KPRS CONSTRUCTION,KPRS CONSTRUCTION,False,35315,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
+2026-03-10 07:11:47 UTC,104,BLUE RIDGE POWER,BLUE RIDGE POWER,True,3042,Blue Ridge Power; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,105,THE RUDOLPH LIBBE COS. INC.,RUDOLPH LIBBE,True,31,"Rudolph Libbe, Inc.; Concrete; Rudolph Murph"
+2026-03-10 07:11:47 UTC,106,VINCI CONSTRUCTION USA,VINCI CONSTRUCTION USA,False,33506,VINCI CONSULTANTS; Design and Engineering; Landscaping
+2026-03-10 07:11:47 UTC,107,HOAR CONSTRUCTION,HOAR CONSTRUCTION,True,35316,Hoar Construction; Communications; General Construction Management
+2026-03-10 07:11:47 UTC,108,CRB,CRB,True,729,CRB; Design and Engineering; Ceilings
+2026-03-10 07:11:47 UTC,109,ANDERSEN CONSTRUCTION,ANDERSEN CONSTRUCTION,False,35362,Andersen; Demolition; Rough Carpentry
+2026-03-10 07:11:47 UTC,110,WEBCOR,WEBCOR,True,415,Webcor Carpentrry; Curtain Wall and Glazed Assemblies; Door and Window Hardware
+2026-03-10 07:11:47 UTC,111,GRAHAM CONSTRUCTION,GRAHAM CONSTRUCTION,True,35381,Graham Construction; Communications; Concrete
+2026-03-10 07:11:47 UTC,112,J.H. FINDORFF & SON INC.,J.H. FINDORFF,False,2458,Findorff; Concrete; Demolition
+2026-03-10 07:11:47 UTC,113,LECHASE CONSTRUCTION SERVICES LLC,LECHASE CONSTRUCTION,True,35316,LeChase; Project Management and Coordination; Rough Carpentry
+2026-03-10 07:11:47 UTC,114,WEEKS MARINE INC.,WEEKS MARINE,False,3133,office; Dulohery Weeks; Design and Engineering
+2026-03-10 07:11:47 UTC,115,JRM CONSTRUCTION MANAGEMENT,JRM CONSTRUCTION MANAGEMENT,True,31411,JRM CONSTRUCTION MANAGEMENT; Ceilings; Communications
+2026-03-10 07:11:47 UTC,116,MCGOUGH,MCGOUGH,True,29,McGough; Project Management and Coordination; McGough Adamson
+2026-03-10 07:11:47 UTC,117,HERZOG,HERZOG,False,67,"Herzog Glass; Glass and Glazing; Herzog Engineering, LLC"
+2026-03-10 07:11:47 UTC,118,APTIM,APTIM,True,4,Aptim; Project Management and Coordination; Environmental Assessment
+2026-03-10 07:11:47 UTC,119,THE BECK GROUP,BECK GROUP,True,9662,Beck Group; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,120,OLTMANS CONSTRUCTION CO.,OLTMANS CONSTRUCTION,True,35316,Oltmans; Concrete; Oltmans Construction Co.
+2026-03-10 07:11:47 UTC,121,CATAMOUNT CONSTRUCTORS INC.,CATAMOUNT CONSTRUCTORS,True,5614,"Catamount constructors; Project Management and Coordination; Catamount Constructors, Inc."
+2026-03-10 07:11:47 UTC,122,BUILD GROUP,BUILD GROUP,True,11224,Build Group; Communications; Concrete
+2026-03-10 07:11:47 UTC,123,JINGOLI - DCO,JINGOLI,True,4,office; Jingoli; General Construction Management
+2026-03-10 07:11:47 UTC,124,JAMES G. DAVIS CONSTRUCTION CORP.,JAMES G. DAVIS CONSTRUCTION,True,36656,"DMV; Baltimore; Chiaramonte DAVIS, a Joint Venture"
+2026-03-10 07:11:47 UTC,125,ASRC INDUSTRIAL,ASRC INDUSTRIAL,False,5103,ASRC Construction; Project Management and Coordination; Daedalus industrial
+2026-03-10 07:11:47 UTC,126,IPS-INTEGRATED PROJECT SERVICES LLC,IPS-INTEGRATED PROJECT,True,7836,IPS Integrated Project Services; Design and Engineering; IPS
+2026-03-10 07:11:47 UTC,127,JAMES R. VANNOY & SONS CONSTRUCTION CO. INC.,JAMES R. VANNOY & SONS CONSTRUCTION,False,1965,Vannoy; Vannoy Construction; Project Management and Coordination
+2026-03-10 07:11:47 UTC,128,THE PENTA BUILDING GROUP,PENTA BUILDING,True,5982,PENTA Building Group; Communications; Design and Engineering
+2026-03-10 07:11:47 UTC,129,WILLMENG CONSTRUCTION,WILLMENG CONSTRUCTION,True,35315,Willmeng Construction; Project Management and Coordination; HTF CONSTRUCTION CONSTRUCTION
+2026-03-10 07:11:47 UTC,130,ENGINEERED STRUCTURES INC.,ENGINEERED STRUCTURES,True,3320,Engineered structures inc.; Demolition; Earthwork
+2026-03-10 07:11:47 UTC,131,CLANCY & THEYS CONSTRUCTION,CLANCY & THEYS CONSTRUCTION,True,292,Goody Clancy; Design and Engineering; Clancy Theys
+2026-03-10 07:11:47 UTC,132,JACOBSEN CONSTRUCTION CO. INC.,JACOBSEN CONSTRUCTION,False,35319,Jacobsen Alves Goodeill; Main Office ; Heating Ventilating and Air Conditioning HVAC
+2026-03-10 07:11:47 UTC,133,EXYTE AMERICAS HOLDING INC.,EXYTE AMERICAS,False,3281,Exyte; Design and Engineering; Exyte U.S. Inc.
+2026-03-10 07:11:47 UTC,134,JOERIS GENERAL CONTRACTORS,JOERIS GENERAL,True,5238,Joeris General Contractors; Project Management and Coordination; Communications
+2026-03-10 07:11:47 UTC,135,SATTERFIELD & PONTIKES CONSTRUCTION INC.,SATTERFIELD & PONTIKES CONSTRUCTION,True,13,office; Satterfield Woodworking Inc; Ceilings
+2026-03-10 07:11:47 UTC,136,HILLWOOD CONSTRUCTION SERVICES,HILLWOOD CONSTRUCTION,True,35319,Hillwood; Hillwood Construction Services; Project Management and Coordination
+2026-03-10 07:11:47 UTC,137,BARTLETT COCKE GENERAL CONTRACTORS LLC,BARTLETT COCKE GENERAL,True,5269,Bartlett cocke general contractors; General Construction Management; Project Management and Coordination
+2026-03-10 07:11:47 UTC,138,DENNIS GROUP,DENNIS GROUP,True,9699,Dennis Group; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,139,RYCON CONSTRUCTION INC.,RYCON CONSTRUCTION,True,35315,"Rycon Construction, Inc.; Concrete; Demolition"
+2026-03-10 07:11:47 UTC,140,FERREIRA CONSTRUCTION CO. INC.,FERREIRA CONSTRUCTION,True,35320,Ferreira Construction; Ferreira; Traffic Control
+2026-03-10 07:11:47 UTC,141,XL CONSTRUCTION CORP.,XL CONSTRUCTION,False,35339,Structures XL; Structural Steel; AXA XL
+2026-03-10 07:11:47 UTC,142,TRAYLOR CONSTRUCTION GROUP INC.,TRAYLOR CONSTRUCTION,False,35322,Traylor Industrial; Structural Steel; Traylor Electric Company Inc.
+2026-03-10 07:11:47 UTC,143,F.H. PASCHEN,F.H. PASCHEN,True,1086,F H Paschen; Project Management and Coordination; F. H. Paschen
+2026-03-10 07:11:47 UTC,144,ROGERS-O,ROGERS-O,False,133,Rogers-O' Brien; Bim and Model Making Services; General Construction Management
+2026-03-10 07:11:47 UTC,145,GOODFELLOW BROS.,GOODFELLOW BROS,True,922,Goodfellow Bros; Earthwork; Demolition
+2026-03-10 07:11:47 UTC,146,MILLIE AND SEVERSON GENERAL CONTRACTORS,MILLIE AND SEVERSON GENERAL,False,1,Millie and Severson; Project Management and Coordination; How many contractors in the United States are on the Procore Construction Network?
+2026-03-10 07:11:47 UTC,147,HANOVER CO.,HANOVER,True,143,ranger fire inc; hanover; Fire Suppression
+2026-03-10 07:11:47 UTC,148,MATRIX SERVICE CO.,MATRIX,True,736,Matrix; Demolition; Kevin Lord
+2026-03-10 07:11:47 UTC,149,KAST CONSTRUCTION LLC,KAST CONSTRUCTION,True,35317,"KAST Construction; KAST Construction Company, LLC; General Construction Management"
+2026-03-10 07:11:47 UTC,150,SHIMMICK,SHIMMICK,True,5,"Shimmick; Electrical; Shimmick Construction Company, Inc."
+2026-03-10 07:11:47 UTC,151,PARIC HOLDINGS,PARIC,True,43,PARIC; Design and Engineering; Paric Corporatiom
+2026-03-10 07:11:47 UTC,152,VCC LLC,VCC,True,537,VCC; Project Management and Coordination; Rock Solid RCC LCC
+2026-03-10 07:11:47 UTC,153,H&M CO. INC.,H&M,False,712,H H Distributors; H And H Pools; Swimming Pools
+2026-03-10 07:11:47 UTC,154,ORION GROUP HOLDINGS INC.,ORION GROUP,False,9689,ORION CONSTRUCTION GROUP; Communications; Concrete
+2026-03-10 07:11:47 UTC,155,C D SMITH CONSTRUCTION,C D SMITH CONSTRUCTION,False,38008,office; C & D; Electrical
+2026-03-10 07:11:47 UTC,156,LEASE CRUTCHER LEWIS,LEASE CRUTCHER LEWIS,True,221,Lease Crutcher Lewis; Communications; Concrete
+2026-03-10 07:11:47 UTC,157,ECC,ECC,True,1379,ECC; Concrete; Design and Engineering
+2026-03-10 07:11:47 UTC,158,STACY AND WITBECK INC.,STACY AND WITBECK,True,7,"Stacy Witbeck Herzog, a Joint Venture; Stacy Witbeck; General Construction Management"
+2026-03-10 07:11:47 UTC,159,TORCON INC.,TORCON,False,641,TOMCON; Concrete; Dorion Norton Electrical Contracting Corp
+2026-03-10 07:11:47 UTC,160,WHARTON-SMITH INC.,WHARTON-SMITH,False,0,
+2026-03-10 07:11:47 UTC,161,WEIS BUILDERS INC.,WEIS,True,133,Weis Builders; Project Management and Coordination; Weis construction
+2026-03-10 07:11:47 UTC,162,PHILLIPS INFRASTRUCTURE HOLDINGS,PHILLIPS INFRASTRUCTURE,False,857,Phillips; Ceilings; Countertops
+2026-03-10 07:11:47 UTC,163,CADDELL CONSTRUCTION,CADDELL CONSTRUCTION,False,35317,Caddell; Concrete; Design and Engineering
+2026-03-10 07:11:47 UTC,164,BILFINGER NORTH AMERICA INC.,BILFINGER NORTH AMERICA,False,4511,Bilfinger; Concrete; Electrical
+2026-03-10 07:11:47 UTC,165,BARNARD CONSTRUCTION CO. INC.,BARNARD CONSTRUCTION,True,35320,Barnard Construction; Electrical; Tina Barnard Designs
+2026-03-10 07:11:47 UTC,166,KAJIMA BUILDING & DESIGN GROUP INC.,KAJIMA BUILDING & DESIGN,False,5974,Manning Building; Rough Carpentry; Building Center
+2026-03-10 07:11:47 UTC,167,WOOD PLC,WOOD PLC,True,63781,WOOD PLC; Design and Engineering; Wood 
+2026-03-10 07:11:47 UTC,168,TRUEBECK CONSTRUCTION,TRUEBECK CONSTRUCTION,False,35315,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
+2026-03-10 07:11:47 UTC,169,COASTAL CONSTRUCTION GROUP,COASTAL CONSTRUCTION,True,35709,Coastal Construction; Demolition; Earthwork
+2026-03-10 07:11:47 UTC,170,MCCOWNGORDON CONSTRUCTION,MCCOWNGORDON CONSTRUCTION,False,35316,McCownGordon; Project Management and Coordination; HTF CONSTRUCTION CONSTRUCTION
+2026-03-10 07:11:47 UTC,171,BOZZUTO CONSTRUCTION CO.,BOZZUTO CONSTRUCTION,True,35319,Bozzuto; General Construction Management; Communications
+2026-03-10 07:11:47 UTC,172,DELLBROOK|JKS,DELLBROOK|JKS,False,0,
+2026-03-10 07:11:47 UTC,173,ANDERSON COLUMBIA CO. INC.,ANDERSON COLUMBIA,True,743,Anderson Columbia; Concrete; Earthwork
+2026-03-10 07:11:47 UTC,174,SAULSBURY,SAULSBURY,True,26,"Saulsbury; Process Piping; Saulsbury Industries, Inc."
+2026-03-10 07:11:47 UTC,175,GREAT LAKES DREDGE & DOCK CO.,GREAT LAKES DREDGE & DOCK,False,1925,Great Lakes Plumbing; Heating Ventilating and Air Conditioning HVAC; Plumbing
+2026-03-10 07:11:47 UTC,176,KRAUS-ANDERSON,KRAUS-ANDERSON,True,3,Kraus-Anderson; Project Management and Coordination; office
+2026-03-10 07:11:47 UTC,177,SPAWGLASS HOLDING,SPAWGLASS,True,12,SpawGlass; Project Management and Coordination; Rough Carpentry
+2026-03-10 07:11:47 UTC,178,UNITED ENGINEERS & CONSTRUCTORS INC.,UNITED ENGINEERS,True,3887,"United Engines; Electrical; United Engineers & Constructors, Inc."
+2026-03-10 07:11:47 UTC,179,KITCHELL CORP.,KITCHELL,True,1202,Kitchell; Project Management and Coordination; Design and Engineering
+2026-03-10 07:11:47 UTC,180,SELLEN CONSTRUCTION,SELLEN CONSTRUCTION,False,35316,Sellen; Concrete; Demolition
+2026-03-10 07:11:47 UTC,181,WILLIAMS BROTHERS CONSTRUCTION CO. INC.,WILLIAMS BROTHERS CONSTRUCTION,True,36805,williams brothers; Rough Carpentry; Sherwin Williams
+2026-03-10 07:11:47 UTC,182,COMMERCIAL CONTRACTING CORP.,COMMERCIAL CONTRACTING,True,15881,Loveless Commercial Contracting; Concrete; Earthwork
+2026-03-10 07:11:47 UTC,183,FCI CONSTRUCTORS INC.,FCI CONSTRUCTORS,True,5627,FCI; Foster Constructors Inc.; Demolition
+2026-03-10 07:11:47 UTC,184,STELLAR,STELLAR,True,137,Stellar; Design and Engineering; African American Business
+2026-03-10 07:11:47 UTC,185,SUPERIOR CONSTRUCTION HOLDING CO. INC.,SUPERIOR CONSTRUCTION,True,36304,Superior Construction; Earthwork; Concrete
+2026-03-10 07:11:47 UTC,186,SAUNDERS CONSTRUCTION INC.,SAUNDERS CONSTRUCTION,True,35331,Saunders Construction; Concrete; Demolition
+2026-03-10 07:11:47 UTC,187,BATSON-COOK CONSTRUCTION,BATSON-COOK CONSTRUCTION,False,35449,Turner Batson; Design and Engineering; Batson Inc.
+2026-03-10 07:11:47 UTC,188,PEINADO CONSTRUCTION,PEINADO CONSTRUCTION,True,35315,Peinado Construction; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,189,LANDMARK CONSTRUCTION LLC,LANDMARK CONSTRUCTION,True,35440,Landmark; Concrete; Earthwork
+2026-03-10 07:11:47 UTC,190,BARNHILL CONTRACTING CO.,BARNHILL CONTRACTING,True,6909,Barnhill Contracting; Concrete; Structural Steel
+2026-03-10 07:11:47 UTC,191,THE OPUS GROUP,OPUS GROUP,False,9631,Opus Valley; 3d Capture Scanning; Access Control
+2026-03-10 07:11:47 UTC,192,LEE LEWIS CONSTRUCTION INC.,LEE LEWIS CONSTRUCTION,False,35686,Lee Lewis Construction Inc. - HQ; Austin Office; Dallas Office
+2026-03-10 07:11:47 UTC,193,GLY CONSTRUCTION,GLY CONSTRUCTION,True,35315,GLY Construction; Project Management and Coordination; HTF CONSTRUCTION CONSTRUCTION
+2026-03-10 07:11:47 UTC,194,ARCH-CON CORP.,ARCH-CON,True,15,Archeton LLC; Design and Engineering; Archeon Group
+2026-03-10 07:11:47 UTC,195,LAS VEGAS PAVING CORP.,LAS VEGAS PAVING,True,5911,Las Vegas Paving; Concrete; Earthwork
+2026-03-10 07:11:47 UTC,196,STAKER PARSON MATERIALS & CONSTRUCTION,STAKER PARSON MATERIALS & CONSTRUCTION,False,1833,Staker Parson Companies; Earthwork; office
+2026-03-10 07:11:47 UTC,197,POGUE CONSTRUCTION CO. LP,POGUE CONSTRUCTION,False,35317,Pogue Electric Service Inc.; Electrical; HTF CONSTRUCTION CONSTRUCTION
+2026-03-10 07:11:47 UTC,198,HAWAIIAN DREDGING CONSTRUCTION CO. INC.,HAWAIIAN DREDGING CONSTRUCTION,True,35339,Hawaiian Dredging Construction Company; Construction Scheduling; Crosby Dredging
+2026-03-10 07:11:47 UTC,199,CALLAHAN INC.,CALLAHAN,True,56,office; Callahan Inc; Project Management and Coordination
+2026-03-10 07:11:47 UTC,200,ZACHRY CONSTRUCTION CORP.,ZACHRY CONSTRUCTION,True,35322,Zachry Construction Corporation; Concrete; Demolition
+2026-03-10 07:11:47 UTC,201,GRAYCOR,GRAYCOR,True,211,Graycor; Concrete; Demolition
+2026-03-10 07:11:47 UTC,202,GE JOHNSON,GE JOHNSON,False,1026,Project Management and Coordination; Electrical; Design and Engineering
+2026-03-10 07:11:47 UTC,203,C.W. DRIVER COS.,C.W. DRIVER,False,4794,C & W; Masonry; Project Management and Coordination
+2026-03-10 07:11:47 UTC,204,MYCON GENERAL CONTRACTORS INC.,MYCON GENERAL,False,5238,Mycon; Communications; Concrete
+2026-03-10 07:11:47 UTC,205,MASCARO CONSTRUCTION CO. LP,MASCARO CONSTRUCTION,True,35315,Mascaro Construction; Ceilings; Concrete
+2026-03-10 07:11:47 UTC,206,PARKWAY C&A,PARKWAY C&A,True,1380,Parkway; General Construction Management; Parkway electric
+2026-03-10 07:11:47 UTC,207,DOME CONSTRUCTION,DOME CONSTRUCTION,False,35323,Dome Technology; Project Management and Coordination; Dome Engineering Group
+2026-03-10 07:11:47 UTC,208,SKYLINE CONSTRUCTION,SKYLINE CONSTRUCTION,True,35477,Skyline Construction; General Construction Management; Project Management
+2026-03-10 07:11:47 UTC,209,ELFORD INC.,ELFORD,False,425,Alford Group; Access Doors and Panels; Access Flooring
+2026-03-10 07:11:47 UTC,210,DIMEO CONSTRUCTION CO.,DIMEO CONSTRUCTION,False,35316,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
+2026-03-10 07:11:47 UTC,211,SLETTEN COS.,SLETTEN,True,31,Sletten Construction; Design and Engineering; Rudolph & Sletten
+2026-03-10 07:11:47 UTC,212,DEACON CONSTRUCTION LLC,DEACON CONSTRUCTION,True,35318,"Deacon Construction, LLC; General Construction Management; Project Management and Coordination"
+2026-03-10 07:11:47 UTC,213,IOVINO ENTERPRISES,IOVINO ENTERPRISES,False,3705,"Arcari & Iovino Architects; Architectural Design and Engineering; iovino design group, LLC"
+2026-03-10 07:11:47 UTC,214,J.P. CULLEN AND SONS INC.,J.P. CULLEN AND SONS,True,2,"Janesville Division; Construction Services Division; Healthcare, Science, and Technology Division"
+2026-03-10 07:11:47 UTC,215,INDEPENDENCE CONSTRUCTION,INDEPENDENCE CONSTRUCTION,True,35356,Independence Construction; General Construction Management; Independence Construction LLC
+2026-03-10 07:11:47 UTC,216,BBL CONSTRUCTION SERVICES LLC,BBL CONSTRUCTION,True,35319,"BBL Construction Services, LLC; BBL Carlton, LLC - Albany; BBL Carlton, LLC - West Virginia"
+2026-03-10 07:11:47 UTC,217,COMMODORE BUILDERS,COMMODORE,True,3,Commodore; Concrete; Masonry
+2026-03-10 07:11:47 UTC,218,MW BUILDERS,MW BUILDERS,True,4281,MW Builders; Structural Steel; Project Management and Coordination
+2026-03-10 07:11:47 UTC,219,RIDGEMONT COMMERCIAL CO.,RIDGEMONT COMMERCIAL,False,9630,Central Homes Roofing and Solar; Roofing; Commercial
+2026-03-10 07:11:47 UTC,220,WALSH CONSTRUCTION CO.,WALSH CONSTRUCTION,True,35385,Walsh; Concrete; Communications
+2026-03-10 07:11:47 UTC,221,VECELLIO GROUP INC.,VECELLIO GROUP,False,9622,"Sharpe Brothers, a Division of Vecellio and Grogan; Concrete; Hal Jones Contractor-A Division of Vecellio & Grogan, Inc."
+2026-03-10 07:11:47 UTC,222,MILENDER WHITE,MILENDER WHITE,False,1213,White Cap; Concrete; Earthwork
+2026-03-10 07:11:47 UTC,223,LEMOINE,LEMOINE,True,41,The Lemoine Company; Project Management and Coordination; Lemoine Program Services
+2026-03-10 07:11:47 UTC,224,PARSONS CORP.,PARSONS,True,424,Parsons; Design and Engineering; Environmental Assessment
+2026-03-10 07:11:47 UTC,225,CHINA CONSTR. AMERICA/PLAZA CONSTR.,CHINA CONSTRUCTION AMERICA,False,32301,China state construction and engineering; Concrete; Demolition
+2026-03-10 07:11:47 UTC,226,PIKE CONSTRUCTION SERVICES INC.,PIKE CONSTRUCTION,True,35337,Pike Construction Inc.; Veteran Business Enterprise; Project Management and Coordination
+2026-03-10 07:11:47 UTC,227,THE MIDDLESEX CORP.,MIDDLESEX,True,29,Middlesex Glass; Rough Carpentry; Middlesex School
+2026-03-10 07:11:47 UTC,228,KAUFMAN LYNN CONSTRUCTION,KAUFMAN LYNN CONSTRUCTION,True,35356,Kaufman Lynn; Design and Engineering; Kaufman Dolowich
+2026-03-10 07:11:47 UTC,229,RAND CONSTRUCTION CORP.,RAND CONSTRUCTION,True,35351,Rand Construction; Communications; Concrete
+2026-03-10 07:11:47 UTC,230,PENNTEX CONSTRUCTION,PENNTEX CONSTRUCTION,False,35316,"PennTex Ventures, LLC; Communications; Concrete"
+2026-03-10 07:11:47 UTC,231,BOH BROS. CONSTRUCTION CO. LLC,BOH BROS. CONSTRUCTION,True,35569,"Boh Bros. Construction Co., L.L.C.; Boh Bros. Construction Co., L.L.C ( Headquarters-New Orleans); Broadmoor LLC and Legacy Professional Services LLC, a Joint Venture"
+2026-03-10 07:11:47 UTC,232,HOLT CONSTRUCTION,HOLT CONSTRUCTION,True,35349,Holt; Design and Engineering; Holt Construction Company
+2026-03-10 07:11:47 UTC,233,EDIFICE INC.,EDIFICE,True,14,Edifice Expert; Building Information Modeling Bim; Edifice Construction
+2026-03-10 07:11:47 UTC,234,R&O CONSTRUCTION,R&O CONSTRUCTION,False,1349,R & R FABRICATION; Small Business; Facility Maintenance and Operation Equipment
+2026-03-10 07:11:47 UTC,235,ELECTRICAL CONSULTANTS INC.,ELECTRICAL CONSULTANTS,True,7578,Electrical Consultants Inc; Electrical; Electrical Design and Engineering
+2026-03-10 07:11:47 UTC,236,W. M. JORDAN CO.,W. M. JORDAN,False,2443,Disadvantaged Business; Minority Business Enterprise; Union Member
+2026-03-10 07:11:47 UTC,237,BERNARDS,BERNARDS,True,86,Bernards; Design and Engineering; Heating Ventilating and Air Conditioning HVAC
+2026-03-10 07:11:47 UTC,238,ARISTEO CONSTRUCTION CO.,ARISTEO CONSTRUCTION,False,35315,Aristeo Garcia Construction LLC.; Concrete; Demolition
+2026-03-10 07:11:47 UTC,239,NEW SOUTH CONSTRUCTION CO.,NEW SOUTH CONSTRUCTION,True,38611,New South Construction; Design and Engineering; Colony Hardware
+2026-03-10 07:11:47 UTC,240,EMJ CONSTRUCTION,EMJ CONSTRUCTION,True,35321,EMJ Construction ionc; EMJ Construction inc; Project Management and Coordination
+2026-03-10 07:11:47 UTC,241,GRANGER CONSTRUCTION CO.,GRANGER CONSTRUCTION,True,35323,Granger Construction Co. HQ; Columbus; Grand Rapids
+2026-03-10 07:11:47 UTC,242,CHASSE BUILDING TEAM,CHASSE BUILDING TEAM,False,8702,Victory Building Team; Project Management and Coordination; Beseler Building Team
+2026-03-10 07:11:47 UTC,243,IDEAL CONTRACTING LLC,IDEAL CONTRACTING,True,7141,office; Ideal Contracting; Concrete
+2026-03-10 07:11:47 UTC,244,GRUNLEY CONSTRUCTION CO. INC.,GRUNLEY CONSTRUCTION,False,35316,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
+2026-03-10 07:11:47 UTC,245,ANDRES CONSTRUCTION SERVICES LLC,ANDRES CONSTRUCTION,True,35321,Andres Construction; Project Management and Coordination; Andres Contracting LLC
+2026-03-10 07:11:47 UTC,246,NAN INC.,NAN INC,True,114986,Nan Inc.; Concrete; Earthwork
+2026-03-10 07:11:47 UTC,247,BRANCH GROUP,BRANCH GROUP,True,9794,Branch Groupe; Design and Engineering; Earthwork
+2026-03-10 07:11:47 UTC,248,IMC CONSTRUCTION,IMC CONSTRUCTION,True,35326,IMC; Concrete; Electrical
+2026-03-10 07:11:47 UTC,249,CARROLL DANIEL CONSTRUCTION CO.,CARROLL DANIEL CONSTRUCTION,True,35496,Carroll Daniel Construction Company; Carroll Daniel Construction Company - Atlanta; Carroll Daniel Construction Company - Greenville
+2026-03-10 07:11:47 UTC,250,ENTACT,ENTACT,True,819,ENTACT; Construction Waste Management and Disposal; ENTACT LLC
+2026-03-10 07:11:47 UTC,251,CSI CONSTRUCTION CO.,CSI CONSTRUCTION,True,35371,CSI Construction; General Construction Management; Project Management and Coordination
+2026-03-10 07:11:47 UTC,252,HARKINS BUILDERS,HARKINS,True,1236,Harkins inc; Timber Framed Entrances and Storefronts; Hawkins
+2026-03-10 07:11:47 UTC,253,O&G INDUSTRIES INC.,O&G INDUSTRIES,False,181,Oriental Painting Intl. Inc.; Painting and Coatings; O Painting
+2026-03-10 07:11:47 UTC,254,J. FLETCHER CREAMER & SON INC.,J. FLETCHER CREAMER,False,3108,
+2026-03-10 07:11:47 UTC,255,CONTEGRA CONSTRUCTION CO.,CONTEGRA CONSTRUCTION,False,35315,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
+2026-03-10 07:11:47 UTC,256,ALLIED POWER,ALLIED POWER,False,2580,Allied Glass; Project Management and Coordination; Allied Concrete
+2026-03-10 07:11:47 UTC,257,CROWDER CONSTRUCTORS INC.,CROWDER CONSTRUCTORS,False,5626,Crowder Construction; Concrete; Earthwork
+2026-03-10 07:11:47 UTC,258,SECURITY PAVING CO. INC.,SECURITY PAVING,False,8101,"Pavion Corporation; Electronic Security; Enterprise Security Solutions, a Pavion Company"
+2026-03-10 07:11:47 UTC,259,MWH,MWH,True,263,MWH Constructors; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,260,THE KORTE CO.,KORTE,False,62,Forte; Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,261,JUNEAU CONSTRUCTION CO.,JUNEAU CONSTRUCTION,True,35321,Juneau Construction Company; General Construction Management; Juneau Odenwald Inc
+2026-03-10 07:11:47 UTC,262,PC CONSTRUCTION CO.,PC CONSTRUCTION,False,35687,Pc Posada construction; Concrete; Concrete Finishing
+2026-03-10 07:11:47 UTC,263,URBAN ATELIER GROUP,URBAN ATELIER,True,393,Urban Atelier Group; Project Management and Coordination; V3 Atelier
+2026-03-10 07:11:47 UTC,264,WIELAND,WIELAND,True,703,Corporate Office; Florida Office; Louisiana Office
+2026-03-10 07:11:47 UTC,265,BULLEY & ANDREWS,BULLEY & ANDREWS,True,2749,Bulley & Andrews; Concrete; Masonry
+2026-03-10 07:11:47 UTC,266,DICK ANDERSON CONSTRUCTION INC.,DICK ANDERSON CONSTRUCTION,True,35669,Billings Office; Bozeman Office; Chanen Construction Main Office
+2026-03-10 07:11:47 UTC,267,LYLES CONSTRUCTION GROUP,LYLES CONSTRUCTION,False,35323,Perfect Cleaning ;  Nicole Lyles; Cleaning and Maintenance Of Existing Period Conditions
+2026-03-10 07:11:47 UTC,268,SHIEL SEXTON CO. INC.,SHIEL SEXTON,False,817,sexton industrial; Project Management and Coordination; GEORGE SEXTON ASSOCIATES
+2026-03-10 07:11:47 UTC,269,ROCKFORD CONSTRUCTION CO.,ROCKFORD CONSTRUCTION,True,35338,Rockford Construction; General Construction Management; McCoy Rockford
+2026-03-10 07:11:47 UTC,270,SUKUT CONSTRUCTION LLC,SUKUT CONSTRUCTION,True,35315,Sukut Construction LLC; Concrete; Demolition
+2026-03-10 07:11:47 UTC,271,NEXAMP,NEXAMP,True,34,Nexamp; Electrical; Project Management and Coordination
+2026-03-10 07:11:47 UTC,272,WOHLSEN CONSTRUCTION CO.,WOHLSEN CONSTRUCTION,True,35315,Wohlsen Construction Company Corporate; Connecticut; Greater Philadelphia
+2026-03-10 07:11:47 UTC,273,FAGEN INC.,FAGEN,False,36,michael fagan; Acoustic Ceilings; Architectural Wood Casework
+2026-03-10 07:11:47 UTC,274,CURRENT BUILDERS,CURRENT BUILDERS,False,4449,Current Electric; Electrical; Current Solutions
+2026-03-10 07:11:47 UTC,275,HASELDEN CONSTRUCTION,HASELDEN CONSTRUCTION,False,35315,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
+2026-03-10 07:11:47 UTC,276,CDM SMITH,CDM SMITH,True,759,CDM Smith; Project Management and Coordination; Design and Engineering
+2026-03-10 07:11:47 UTC,277,SEMA CONSTRUCTION INC.,SEMA CONSTRUCTION,True,35319,sema; Concrete; Sema Construction
+2026-03-10 07:11:47 UTC,278,RUSSELL GROUP INC.,RUSSELL GROUP,False,9748,"office; Russell & Russell Construction, LLC; Ceilings"
+2026-03-10 07:11:47 UTC,279,CAHILL CONTRACTORS,CAHILL CONTRACTORS,True,11450,Cahill Contractors; Project Management and Coordination; Cahill Contractors 
+2026-03-10 07:11:47 UTC,280,DRYMALLA CONSTRUCTION CO.,DRYMALLA CONSTRUCTION,True,35315,Drymalla Construction; Project Management and Coordination; HTF CONSTRUCTION CONSTRUCTION
+2026-03-10 07:11:47 UTC,281,FRANK L. BLUM CONSTRUCTION CO.,FRANK L. BLUM CONSTRUCTION,True,36232,Frank L Blum Construction; Project Management and Coordination; R L Blum Construction
+2026-03-10 07:11:47 UTC,282,CAJUN INDUSTRIES HOLDINGS LLC,CAJUN INDUSTRIES,True,5595,Cajun Industries; Concrete; Razzoo's Cajun Cafe
+2026-03-10 07:11:47 UTC,283,DANIS,DANIS,True,498,"Danis; Project Management and Coordination; Davis & Davis Interior Design Co., LLC"
+2026-03-10 07:11:47 UTC,284,NIBBI BROS. ASSOCIATES INC.,NIBBI BROS. ASSOCIATES,False,5184,Roth Bros; Heating Ventilating and Air Conditioning HVAC; Ventresca Bros
+2026-03-10 07:11:47 UTC,285,DEANGELIS DIAMOND CONSTRUCTION,DEANGELIS DIAMOND CONSTRUCTION,False,35705,DeAngelis Iron Works; Design and Engineering; Structural Steel
+2026-03-10 07:11:47 UTC,286,TRITON CONSTRUCTION CO. LLC,TRITON CONSTRUCTION,True,35373,Triton Construction Group; General Construction Management; Triton solutions
+2026-03-10 07:11:47 UTC,287,SKENDER,SKENDER,True,173,"Skender; Project Management and Coordination; Sender Electric, LLC"
+2026-03-10 07:11:47 UTC,288,RODGERS BUILDERS,RODGERS BUILDERS,True,4266,Rodgers Builders; Countertops; Demolition
+2026-03-10 07:11:47 UTC,289,LYDIG CONSTRUCTION,LYDIG CONSTRUCTION,True,35315,Lydig Construction; Project Management and Coordination; HTF CONSTRUCTION CONSTRUCTION
+2026-03-10 07:11:47 UTC,290,FRANA COS. INC.,FRANA COMPANIES,True,1530,Frana Companies; Finish Carpentry; Rough Carpentry
+2026-03-10 07:11:47 UTC,291,PERNIX GROUP INC.,PERNIX GROUP,False,9620,TEMP; GROUP; Architectural Design and Engineering
+2026-03-10 07:11:47 UTC,292,SHELCO LLC,SHELCO,True,472,Shelco; Project Management and Coordination; Shelco Construction
+2026-03-10 07:11:47 UTC,293,SNYDER LANGSTON,SNYDER LANGSTON,False,119,"office; Snyder Roofing of Washington, LLC; Ceilings"
+2026-03-10 07:11:47 UTC,294,MANSON CONSTRUCTION CO.,MANSON CONSTRUCTION,True,35316,Manson Construction; Rough Carpentry; Manson Construction Co.
+2026-03-10 07:11:47 UTC,295,C. OVERAA & CO.,C. OVERAA & CO,True,4047,Overaa Construction; C. Overaa & Co; Concrete
+2026-03-10 07:11:47 UTC,296,INTECH CONSTRUCTION,INTECH CONSTRUCTION,False,35321,"Integrated Technologies Group, LLC; Access Control; Audio Video Communications"
+2026-03-10 07:11:47 UTC,297,S. T. WOOTEN CORP.,S. T. WOOTEN,False,2257,S and T; Communications; T S I Plumbing
+2026-03-10 07:11:47 UTC,298,KRAEMER NORTH AMERICA LLC,KRAEMER NORTH AMERICA,False,4523,"North American Civil; North American Civil Works, LLC; 3d Capture Scanning"
+2026-03-10 07:11:47 UTC,299,HARPER CONSTRUCTION CO. INC.,HARPER CONSTRUCTION,False,35355,gary harper construction; Access Flooring; Rulon Harper Construction DBA Harper Precast
+2026-03-10 07:11:47 UTC,300,BOWEN ENGINEERING CORP.,BOWEN ENGINEERING,True,7126,Bowen Engineering; Concrete; Earthwork
+2026-03-10 07:11:47 UTC,301,COLUMBIA,COLUMBIA,True,372,Columbia; Bim and Model Making Services; General Construction Management
+2026-03-10 07:11:47 UTC,302,HARPER GENERAL CONTRACTORS,HARPER GENERAL,True,5283,Harper General Contractor; Plumbing; Harper Electric
+2026-03-10 07:11:47 UTC,303,JPI,JPI,False,554,JCI; Fire Suppression; WPI
+2026-03-10 07:11:47 UTC,304,MARCH ASSOCIATES CONSTRUCTION INC.,MARCH ASSOCIATES CONSTRUCTION,False,38262,office; March Adams; Design and Engineering
+2026-03-10 07:11:47 UTC,305,Q&D CONSTRUCTION,Q&D CONSTRUCTION,False,43,Q electric; Small Business; Electrical
+2026-03-10 07:11:47 UTC,306,CLARK CONSTRUCTION CO.,CLARK CONSTRUCTION,True,35509,Clark Construction; Concrete; Project Management and Coordination
+2026-03-10 07:11:47 UTC,307,HAWKINS CONSTRUCTION CO.,HAWKINS CONSTRUCTION,True,35356,Hawkins Construction Inc.; Concrete; Demolition
+2026-03-10 07:11:47 UTC,308,EXXEL PACIFIC INC.,EXXEL PACIFIC,False,1304,"Exxel Engineering, Inc.; Design and Engineering; Pacific Supply"
+2026-03-10 07:11:47 UTC,309,THE BETTE COS.,BETTE,False,401,Bouma Betten; Ceilings; Countertops
+2026-03-10 07:11:47 UTC,310,POETTKER CONSTRUCTION CO.,POETTKER CONSTRUCTION,False,35315,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
+2026-03-10 07:11:47 UTC,311,SCHIMENTI CONSTRUCTION CO.,SCHIMENTI CONSTRUCTION,False,35315,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
+2026-03-10 07:11:47 UTC,312,R.D. OLSON CONSTRUCTION,R.D. OLSON CONSTRUCTION,False,37439,R Olson; Concrete; David R Olson
+2026-03-10 07:11:47 UTC,313,PIONEER GENERAL CONTRACTORS INC.,PIONEER GENERAL,True,5406,Pioneer General Contractors; Plumbing; Project Management and Coordination
+2026-03-10 07:11:47 UTC,314,HUNZINGER CONSTRUCTION CO.,HUNZINGER CONSTRUCTION,True,35316,Hunzinger Construction Company; Bim and Model Making Services; General Construction Management
+2026-03-10 07:11:47 UTC,315,JIM COOPER CONSTRUCTION CO. INC.,JIM COOPER CONSTRUCTION,False,35554,Cooper Construction; Project Management and Coordination; Jim
+2026-03-10 07:11:47 UTC,316,M. B. KAHN CONSTRUCTION CO. INC.,M. B. KAHN CONSTRUCTION,True,37281,M B Kahn; Project Management and Coordination; office
+2026-03-10 07:11:47 UTC,317,BRADBURY STAMM CONSTRUCTION INC.,BRADBURY STAMM CONSTRUCTION,True,35319,Bradbury Stamm Construction; General Construction Management; HTF CONSTRUCTION CONSTRUCTION
+2026-03-10 07:11:47 UTC,318,SHOOK CONSTRUCTION,SHOOK CONSTRUCTION,True,35326,Shook Construction; Concrete; Earthwork
+2026-03-10 07:11:47 UTC,319,MILLER VALENTINE CONSTRUCTION,MILLER VALENTINE CONSTRUCTION,True,35759,Miller Valentine; Demolition; Rough Carpentry
+2026-03-10 07:11:47 UTC,320,PLANT CONSTRUCTION CO. LP,PLANT CONSTRUCTION,False,35470,office; Plant Pros; Landscaping
+2026-03-10 07:11:47 UTC,321,CR MEYER,CR MEYER,True,321,CR Meyer; Concrete; Demolition
+2026-03-10 07:11:47 UTC,322,DOSTER CONSTRUCTION CO.,DOSTER CONSTRUCTION,True,35316,Doster Construction; General Construction Management; Project Management and Coordination
+2026-03-10 07:11:47 UTC,323,THE HAGERMAN GROUP,HAGERMAN GROUP,True,9623,Hagerman Group; Concrete; Masonry
+2026-03-10 07:11:47 UTC,324,GARDNER BUILDERS,GARDNER BUILDERS,False,4301,Gardner Company; General Construction Management; Project Management and Coordination
+2026-03-10 07:11:47 UTC,325,HILL & WILKINSON GENERAL CONTRACTORS,HILL & WILKINSON GENERAL,False,2025,McClure Hill; Electrical; Hill International
+2026-03-10 07:11:47 UTC,326,HOURIGAN,HOURIGAN,True,28,Hourigan; Project Management and Coordination; Hourigan Construction
+2026-03-10 07:11:47 UTC,327,DONOHOE CONSTRUCTION CO.,DONOHOE CONSTRUCTION,True,35318,Donohoe Construction; Project Management and Coordination; Donohoe
+2026-03-10 07:11:47 UTC,328,ABSHER CONSTRUCTION CO.,ABSHER CONSTRUCTION,True,35315,"Absher Construction Co.; Absher-Stellar J Joint Venture; Front & Market, LLC"
+2026-03-10 07:11:47 UTC,329,RIVER CITY CONSTRUCTION LLC,RIVER CITY CONSTRUCTION,True,37984,River City Construction Group; Interior Specialties; River City Builders
+2026-03-10 07:11:47 UTC,330,LEOPARDO COS.,LEOPARDO COMPANIES,True,1531,"Leopardo Companies, Inc; Finish Carpentry; General Construction Management"
+2026-03-10 07:11:47 UTC,331,T N WARD CO.,T N WARD,True,1912,T N Ward Company; Concrete; Demolition
+2026-03-10 07:11:47 UTC,332,DENHAM-BLYTHE CO.,DENHAM-BLYTHE,True,1,Lexington; Louisville; Nashville
+2026-03-10 07:11:47 UTC,333,KBE BUILDING CORP.,KBE BUILDING,True,5975,KBE Building Corporation; General Construction Management; KBE Design Build
+2026-03-10 07:11:47 UTC,334,MARKET & JOHNSON INC.,MARKET & JOHNSON,False,3298,Taibah Market; Acoustic Ceilings; Jones Flooring Center
+2026-03-10 07:11:47 UTC,335,EXECUTIVE CONSTRUCTION INC.,EXECUTIVE CONSTRUCTION,False,35408,Executive Landscaping; Earthwork; Landscaping
+2026-03-10 07:11:47 UTC,336,ALBERT C. KOBAYASHI INC.,ALBERT C. KOBAYASHI,False,1417,Albert Architecture; Albert Lee; Design and Engineering
+2026-03-10 07:11:47 UTC,337,FORTUNE-JOHNSON LLC,FORTUNE-JOHNSON,True,1,Atlanta - FJLLC; Charlotte - FJLLC; Richmond - FJLLC
+2026-03-10 07:11:47 UTC,338,KLINGER COS. LLC,KLINGER,False,207,office; Klinger Masonry Inc.; Masonry
+2026-03-10 07:11:47 UTC,339,KBS INC.,KBS,True,572,office; KBS; Abatement and Remediation
+2026-03-10 07:11:47 UTC,340,PRIMUS BUILDERS INC.,PRIMUS BUILDERS,False,4237,Primus Surfaces; Countertops; Terrazzo Flooring
+2026-03-10 07:11:47 UTC,341,GH PHIPPS CONSTRUCTION COS.,GH PHIPPS CONSTRUCTION,True,35345,office; GH Phipps; Bim and Model Making Services
+2026-03-10 07:11:47 UTC,342,TERMINAL CONSTRUCTION CORP.,TERMINAL CONSTRUCTION,True,35331,Terminal Construction; General Construction Management; Terminal Construction Corp.
+2026-03-10 07:11:47 UTC,343,WESPAC CONSTRUCTION,WESPAC CONSTRUCTION,False,35317,WESPAC Electrical Contractors Ltd.; Electrical; HTF CONSTRUCTION CONSTRUCTION
+2026-03-10 07:11:47 UTC,344,PERLO CONSTRUCTION,PERLO CONSTRUCTION,False,35315,HTF CONSTRUCTION CONSTRUCTION; Concrete; Rough Carpentry
+2026-03-10 07:11:47 UTC,345,NEI GENERAL CONTRACTING,NEI GENERAL CONTRACTING,False,9647,J2 Contracting; Demolition; General
+2026-03-10 07:11:47 UTC,346,LEE KENNEDY CO.,LEE KENNEDY,False,470,Kennedy Jenks; Project Management and Coordination; Kennedy Glass Partners LLC
+2026-03-10 07:11:47 UTC,347,BERGLUND CONSTRUCTION CO.,BERGLUND CONSTRUCTION,True,35317,Berglund Construction; Communications; Concrete
+2026-03-10 07:11:47 UTC,348,BUCH CONSTRUCTION,BUCH CONSTRUCTION,True,35316,Carolina; Florida Office; Georgia Office
+2026-03-10 07:11:47 UTC,349,THOMPSON TURNER CONSTRUCTION,THOMPSON TURNER CONSTRUCTION,True,35688,Thompson Turner; Communications; Turner Construction 
+2026-03-10 07:11:47 UTC,350,BLACH CONSTRUCTION,BLACH CONSTRUCTION,True,35315,Blach Construction; General Construction Management; HTF CONSTRUCTION CONSTRUCTION
+2026-03-10 07:11:47 UTC,351,ROGER B. KENNEDY CONSTRUCTION,ROGER B. KENNEDY CONSTRUCTION,False,36361,Roger; Electrical; Roger Langeliers Construction
+2026-03-10 07:11:47 UTC,352,MOWERY,MOWERY,False,3109,Mowers concret; Concrete; Mowers concrete
+2026-03-10 07:11:47 UTC,353,D.F. CHASE INC.,D.F. CHASE,False,2031,office; F D Pierce Co; Heating Ventilating and Air Conditioning HVAC
+2026-03-10 07:11:47 UTC,354,HAYDON BUILDING CORP.,HAYDON BUILDING,False,5978,Haydon Materials; Earthwork; Prevailing Wage
+2026-03-10 07:11:47 UTC,355,LANDSOUTH CONSTRUCTION,LANDSOUTH CONSTRUCTION,True,35315,"LandSouth Construction LLC; LandSouth Construction, LLC; HTF CONSTRUCTION CONSTRUCTION"
+2026-03-10 07:11:47 UTC,356,PENCE CONTRACTORS,PENCE CONTRACTORS,False,11443,J.H. Pence Co; Project Management and Coordination; Pence Countertops Inc.
+2026-03-10 07:11:47 UTC,357,BALDWIN & SHELL CONSTRUCTION CO.,BALDWIN & SHELL CONSTRUCTION,False,72,Baldwin Blinds; Window Treatments; office
+2026-03-10 07:11:47 UTC,358,MATT CONSTRUCTION,MATT CONSTRUCTION,False,35343,Matt; Landscaping; Project Management and Coordination
+2026-03-10 07:11:47 UTC,359,WILLIAM A RANDOLPH INC.,WILLIAM A RANDOLPH,True,228,"William A. Randolph, Inc.; Project Management and Coordination; Randolph Electrical"
+2026-03-10 07:11:47 UTC,360,CF EVANS CONSTRUCTION,CF EVANS CONSTRUCTION,False,35454,CF Construction Services; Concrete; Concrete Countertops
+2026-03-10 07:11:47 UTC,361,ROEBBELEN CONTRACTING INC.,ROEBBELEN CONTRACTING,False,6909,ICI Contracting; Architectural Design and Engineering; Fixture Contracting
+2026-03-10 07:11:47 UTC,362,CCC GROUP INC.,CCC GROUP,True,9636,CCC Group; Concrete; Electrical
+2026-03-10 07:11:47 UTC,363,SEVENSON ENVIRONMENTAL,SEVENSON ENVIRONMENTAL,False,3004,Sevenson; Earthwork; Precept Environmental
+2026-03-10 07:11:47 UTC,364,CHARLES PERRY PARTNERS INC.,CHARLES PERRY PARTNERS,True,2883,"Charles Perry Partners, Inc.; General Construction Management; Project Management and Coordination"
+2026-03-10 07:11:47 UTC,365,RABREN GENERAL CONTRACTORS,RABREN GENERAL,True,5237,RGC Main Office; RGC Birmingham Office; Rabren General Contractors
+2026-03-10 07:11:47 UTC,366,WORLEY,WORLEY,True,1165,Worley; Structural Steel; Design and Engineering
+2026-03-10 07:11:47 UTC,367,MORLEY BUILDERS,MORLEY BUILDERS,False,4243,Morley; Project Management and Coordination; Morley Roofing
+2026-03-10 07:11:47 UTC,368,FONTAINE BROS. INC.,FONTAINE BROS,False,933,Fontaine Landscaping; Landscaping; Fontaine Construction
+2026-03-10 07:11:47 UTC,369,BARR & BARR INC.,BARR & BARR,True,442,Barr and Barr; Mechanical Design and Engineering; Project Management and Coordination
+2026-03-10 07:11:47 UTC,370,E.W. HOWELL CO. LLC,E.W. HOWELL,False,3567,W E Bowers; Commissioning; Disadvantaged Business
+2026-03-10 07:11:47 UTC,371,FORT MYER CONSTRUCTION CORP.,FORT MYER CONSTRUCTION,False,35587,office; O'MAHONY & MYER; Design and Engineering
+2026-03-10 07:11:47 UTC,372,RONCELLI INC.,RONCELLI,True,11,Roncelli; General Construction Management; Riccelli Enterprises
+2026-03-10 07:11:47 UTC,373,GARCO CONSTRUCTION,GARCO CONSTRUCTION,False,35318,Garco Investments; Demolition; Masonry
+2026-03-10 07:11:47 UTC,374,CLARK CONTRACTORS,CLARK CONTRACTORS,False,11665,"Clark Construction Contractor, LLC.; Ceilings; Concrete"
+2026-03-10 07:11:47 UTC,375,BRYAN CONSTRUCTION INC.,BRYAN CONSTRUCTION,True,35368,Bryan Construction Inc.; Rough Carpentry; office
+2026-03-10 07:11:47 UTC,376,BH INC.,BH INC,False,115000,BH Estimating; Wood Countertops; Wood Wall Panels
+2026-03-10 07:11:47 UTC,377,J.F. BRENNAN CO. INC.,J.F. BRENNAN,False,2207,office; Thomas J Brennan Architects; Bim and Model Making Services
+2026-03-10 07:11:47 UTC,378,BURKE CONSTRUCTION GROUP INC.,BURKE CONSTRUCTION,True,35381,Burke Mechanical; Concrete; Demolition
+2026-03-10 07:11:47 UTC,379,AHTNA NETIFYE LLC,AHTNA NETIFYE,False,4,"Ahtna; Project Management and Coordination; Ahtna Global, LLC"
+2026-03-10 07:11:47 UTC,380,S. M. WILSON & CO.,S. M. WILSON,False,3623,M S Concrete; Concrete; M S International
+2026-03-10 07:11:47 UTC,381,BELL & ASSOCIATES CONSTRUCTION LLC,BELL & ASSOCIATES CONSTRUCTION,False,2339,"Bell; General Construction Management; BELL BCI CO., LLC"
+2026-03-10 07:11:47 UTC,382,BYRNE CONSTRUCTION SERVICES,BYRNE CONSTRUCTION,True,35327,Byrne Construction Services; Project Management and Coordination; Byrne Construction
+2026-03-10 07:11:47 UTC,383,BUTZ ENTERPRISES INC.,BUTZ ENTERPRISES,False,3704,Miller Enterprise Group/Houston Miller Enterprises; Concrete; Demolition
+2026-03-10 07:11:47 UTC,384,W.G. CLARK CONSTRUCTION CO.,W.G. CLARK CONSTRUCTION,False,36577,William W Clark; Earthwork; W W Clark Excavating
+2026-03-10 07:11:47 UTC,385,PARRISH CONSTRUCTION GROUP INC.,PARRISH CONSTRUCTION,True,35337,Parrish Construction; Communications; Parrish Excavating
+2026-03-10 07:11:47 UTC,386,COAKLEY & WILLIAMS CONSTRUCTION,COAKLEY & WILLIAMS CONSTRUCTION,False,101,Coakley Brothers; Structure and Building Moving Relocation; Coakley Plumbing
+2026-03-10 07:11:47 UTC,387,KEY CONSTRUCTION INC.,KEY CONSTRUCTION,True,35636,Key Construction Inc.; Project Management and Coordination; Top Key Construction
+2026-03-10 07:11:47 UTC,388,DESCOR BUILDERS,DESCOR BUILDERS,False,4231,Builders; Rough Carpentry; Madsen Builders
+2026-03-10 07:11:47 UTC,389,GHILOTTI CONSTRUCTION CO.,GHILOTTI CONSTRUCTION,False,35321,"Team Ghilotti; Earthwork; Ghilotti Bros., Inc."
+2026-03-10 07:11:47 UTC,390,BUFFALO CONSTRUCTION,BUFFALO CONSTRUCTION,False,35393,office; Buffalo; Communications
+2026-03-10 07:11:47 UTC,391,BROWN CONSTRUCTION INC.,BROWN CONSTRUCTION,True,35635,Brown and Brown Construction; Rough Carpentry; Brady Brown Construction
+2026-03-10 07:11:47 UTC,392,WILLIAMS INDUSTRIAL SERVICES GROUP INC.,WILLIAMS INDUSTRIAL SERVICES,False,31059,GENERAL WILLIAMS; Paving and Surfacing; GCW Pavement Services LLC
+2026-03-10 07:11:47 UTC,393,BARRY-WEHMILLER DESIGN GROUP,BARRY-WEHMILLER DESIGN,True,10871,Barry Wehmiller Design Group; Architectural Design and Engineering; Electrical
+2026-03-10 07:11:47 UTC,394,J.D. ECKMAN INC.,J.D. ECKMAN,False,2957,office; J D; Earthwork
+2026-03-10 07:11:47 UTC,395,WAGMAN INC.,WAGMAN CONSTRUCTION,True,35318,Wagman Construction; Ceilings; Concrete
+2026-03-10 07:11:47 UTC,396,A.R. MAYS CONSTRUCTION,A.R. MAYS CONSTRUCTION,False,36467,Grover Mays Construction; Structural Steel; Mays concrete
+2026-03-10 07:11:47 UTC,397,EAGLE BUILDING CO.,EAGLE BUILDING,True,6431,Eagle Building Company; General Construction Management; Small Business
+2026-03-10 07:11:47 UTC,398,KIELY FAMILY OF COS.,KIELY FAMILY,True,2442,Kiely Family of Companies; Concrete; Demolition
+2026-03-10 07:11:47 UTC,399,OMNIBUILD,OMNIBUILD,False,0,
+2026-03-10 07:11:47 UTC,400,P. AGNES,P. AGNES,False,501,Ages; Heating Ventilating and Air Conditioning HVAC; Charlie Agnew
